@@ -2,10 +2,11 @@
 //
 
 #include "stdafx.h"
+#include "src/weekcallback/weakcallback.h"
 
-
-int _tmain(int argc, _TCHAR* argv[])
+int main(int argc, char* argv[])
 {
+    WeakFactory::main(argc, argv);
 	return 0;
 }
 

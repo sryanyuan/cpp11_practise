@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{ab51e7c0-26b5-44ca-b302-80766dd2d1c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\weakcallback">
+      <UniqueIdentifier>{1bcb99fb-7fc7-4259-a2a2-a8c240ebba05}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -23,6 +29,9 @@
     </ClInclude>
     <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\weekcallback\weakcallback.h">
+      <Filter>src\weakcallback</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

@@ -1,3 +1,5 @@
 *.sdf
 *.suo
 *.opensdf
+practise/Debug
+practise/Release
