@@ -79,6 +79,9 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\copy_on_write\copy_on_write.h" />
+    <ClInclude Include="src\functional\functional.h" />
+    <ClInclude Include="src\variadic_template\variadic_template.h" />
     <ClInclude Include="src\weekcallback\weakcallback.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />

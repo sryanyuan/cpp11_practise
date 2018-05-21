@@ -58,11 +58,15 @@ public:
 
 public:
     static void main(int argc, char* argv[]) {
+        printf("%s start\r\n", __FUNCTION__);
         std::shared_ptr<WeakItem> powned_item;
+        std::weak_ptr<WeakFactory> pwfac;
 
         {
             // Factory scope
             std::shared_ptr<WeakFactory> pfac(new WeakFactory);
+            pwfac = pfac;
+
             powned_item = pfac->get("owned");
 
             auto tfunc = [pfac]() {
@@ -82,8 +86,15 @@ public:
             t2.join();
         }
         
+        auto pfac = pwfac.lock();
+        if (nullptr == pfac) {
+            printf("factory already deleted\r\n");
+        } else {
+            printf("factory not deleted\r\n");
+        }
         // Factory is deleted, owned_item should be delete but not erase from factory
         // ...
+        printf("%s end\r\n", __FUNCTION__);
     }
 
 private:

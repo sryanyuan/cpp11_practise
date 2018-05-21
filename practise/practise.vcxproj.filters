@@ -19,6 +19,15 @@
     <Filter Include="src\weakcallback">
       <UniqueIdentifier>{1bcb99fb-7fc7-4259-a2a2-a8c240ebba05}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\functional">
+      <UniqueIdentifier>{606cfa04-b850-49d8-81b0-01ea1a5026f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\variadic_template">
+      <UniqueIdentifier>{06bcf4b8-2f1e-4225-ac42-9f9ac942e5a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\copy_on_write">
+      <UniqueIdentifier>{5f495ecb-9ad4-40bc-ad9e-15cd69fe29b8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -32,6 +41,15 @@
     </ClInclude>
     <ClInclude Include="src\weekcallback\weakcallback.h">
       <Filter>src\weakcallback</Filter>
+    </ClInclude>
+    <ClInclude Include="src\functional\functional.h">
+      <Filter>src\functional</Filter>
+    </ClInclude>
+    <ClInclude Include="src\variadic_template\variadic_template.h">
+      <Filter>src\variadic_template</Filter>
+    </ClInclude>
+    <ClInclude Include="src\copy_on_write\copy_on_write.h">
+      <Filter>src\copy_on_write</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
