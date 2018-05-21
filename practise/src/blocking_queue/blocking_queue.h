@@ -28,7 +28,7 @@ public:
             // the que_
         }
         
-        T task = std::move(que_.back());
+        T task = std::move(que_.front());
         que_.pop_back();
         return task;
     }
