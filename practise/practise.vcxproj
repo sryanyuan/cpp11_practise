@@ -79,8 +79,11 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\blocking_queue\blocking_queue.h" />
+    <ClInclude Include="src\blocking_queue\blocking_queue_test.h" />
     <ClInclude Include="src\copy_on_write\copy_on_write.h" />
     <ClInclude Include="src\functional\functional.h" />
+    <ClInclude Include="src\utils\mutex_lock_guard.h" />
     <ClInclude Include="src\variadic_template\variadic_template.h" />
     <ClInclude Include="src\weekcallback\weakcallback.h" />
     <ClInclude Include="stdafx.h" />
@@ -88,6 +91,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="practise.cpp" />
+    <ClCompile Include="src\blocking_queue\blocking_queue_test.cpp" />
     <ClCompile Include="stdafx.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

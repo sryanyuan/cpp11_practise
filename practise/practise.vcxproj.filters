@@ -28,6 +28,12 @@
     <Filter Include="src\copy_on_write">
       <UniqueIdentifier>{5f495ecb-9ad4-40bc-ad9e-15cd69fe29b8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\blocking_queue">
+      <UniqueIdentifier>{d239ca0a-1588-4902-be14-264d35d2a892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utils">
+      <UniqueIdentifier>{2a8af676-f8b3-4d08-a2fd-2031bca2d33c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -51,6 +57,15 @@
     <ClInclude Include="src\copy_on_write\copy_on_write.h">
       <Filter>src\copy_on_write</Filter>
     </ClInclude>
+    <ClInclude Include="src\utils\mutex_lock_guard.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\blocking_queue\blocking_queue.h">
+      <Filter>src\blocking_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="src\blocking_queue\blocking_queue_test.h">
+      <Filter>src\blocking_queue</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -58,6 +73,9 @@
     </ClCompile>
     <ClCompile Include="practise.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\blocking_queue\blocking_queue_test.cpp">
+      <Filter>src\blocking_queue</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
