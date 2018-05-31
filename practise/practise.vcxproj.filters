@@ -34,6 +34,9 @@
     <Filter Include="src\utils">
       <UniqueIdentifier>{2a8af676-f8b3-4d08-a2fd-2031bca2d33c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\leetcode">
+      <UniqueIdentifier>{7d46e3bd-4c2f-4c20-a5eb-d0584d806536}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -65,6 +68,42 @@
     </ClInclude>
     <ClInclude Include="src\blocking_queue\blocking_queue_test.h">
       <Filter>src\blocking_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\roman_to_integer.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\longest_common_prefix.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\valid_parentheses.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\count_and_say.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\maximum_subarray.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\length_of_last_word.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\plus_one.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\add_binary.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\sqrt(x).h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\climbing_stairs.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\remove_duplicates_from_sorted_list.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\merge_sorted_array.h">
+      <Filter>src\leetcode</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
