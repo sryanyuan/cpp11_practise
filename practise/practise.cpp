@@ -17,6 +17,13 @@
 #include "src/leetcode/sqrt(x).h"
 #include "src/leetcode/climbing_stairs.h"
 #include "src/leetcode/merge_sorted_array.h"
+#include "src/leetcode/binary_tree_level_order_traversal_ii.h"
+#include "src/leetcode/convert_sorted_array_to_binary_search_tree.h"
+#include "src/leetcode/balanced_binary_tree.h"
+#include "src/leetcode/minimum_depth_of_binary_tree.h"
+#include "src/leetcode/path_sum.h"
+#include "src/leetcode/pascals_triangle.h"
+#include "src/leetcode/pascals_triangle_ii.h"
 
 int main(int argc, char* argv[])
 {
@@ -24,20 +31,7 @@ int main(int argc, char* argv[])
     //WeakFactory::main(argc, argv);
     //VariadicTemplate::main(argc, argv);
     //blocking_queue_test_overview();
-    vector<int> nums1;
-    nums1.resize(6);
-    nums1[0] = 3;
-    nums1[1] = 4;
-    nums1[2] = 5;
-    nums1[3] = 0;
-    nums1[4] = 0;
-    nums1[5] = 0;
-    vector<int> nums2;
-    nums2.resize(3);
-    nums2[0] = 1;
-    nums2[1] = 2;
-    nums2[2] = 6;
-    MergeSortedArray::main(nums1, 3, nums2, 3);
+    PascalsTriangleII::test();
 
 	return 0;
 }
