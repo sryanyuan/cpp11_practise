@@ -85,6 +85,7 @@
     <ClInclude Include="src\functional\functional.h" />
     <ClInclude Include="src\leetcode\add_binary.h" />
     <ClInclude Include="src\leetcode\balanced_binary_tree.h" />
+    <ClInclude Include="src\leetcode\best_time_to_buy_and_sell_stock.h" />
     <ClInclude Include="src\leetcode\binary_tree_level_order_traversal_ii.h" />
     <ClInclude Include="src\leetcode\climbing_stairs.h" />
     <ClInclude Include="src\leetcode\convert_sorted_array_to_binary_search_tree.h" />
