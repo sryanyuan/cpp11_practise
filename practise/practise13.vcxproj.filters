@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{ab51e7c0-26b5-44ca-b302-80766dd2d1c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\weakcallback">
+      <UniqueIdentifier>{1bcb99fb-7fc7-4259-a2a2-a8c240ebba05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\functional">
+      <UniqueIdentifier>{606cfa04-b850-49d8-81b0-01ea1a5026f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\variadic_template">
+      <UniqueIdentifier>{06bcf4b8-2f1e-4225-ac42-9f9ac942e5a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\copy_on_write">
+      <UniqueIdentifier>{5f495ecb-9ad4-40bc-ad9e-15cd69fe29b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\blocking_queue">
+      <UniqueIdentifier>{d239ca0a-1588-4902-be14-264d35d2a892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utils">
+      <UniqueIdentifier>{2a8af676-f8b3-4d08-a2fd-2031bca2d33c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\leetcode">
+      <UniqueIdentifier>{7d46e3bd-4c2f-4c20-a5eb-d0584d806536}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\weekcallback\weakcallback.h">
+      <Filter>src\weakcallback</Filter>
+    </ClInclude>
+    <ClInclude Include="src\functional\functional.h">
+      <Filter>src\functional</Filter>
+    </ClInclude>
+    <ClInclude Include="src\variadic_template\variadic_template.h">
+      <Filter>src\variadic_template</Filter>
+    </ClInclude>
+    <ClInclude Include="src\copy_on_write\copy_on_write.h">
+      <Filter>src\copy_on_write</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\mutex_lock_guard.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\blocking_queue\blocking_queue.h">
+      <Filter>src\blocking_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="src\blocking_queue\blocking_queue_test.h">
+      <Filter>src\blocking_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\roman_to_integer.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\longest_common_prefix.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\valid_parentheses.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\count_and_say.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\maximum_subarray.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\length_of_last_word.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\plus_one.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\add_binary.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\sqrt(x).h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\climbing_stairs.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\remove_duplicates_from_sorted_list.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\merge_sorted_array.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\same_tree.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\symmetric_tree.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\maximum_depth_of_binary_tree.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\binary_tree_level_order_traversal_ii.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\convert_sorted_array_to_binary_search_tree.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\balanced_binary_tree.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\minimum_depth_of_binary_tree.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\path_sum.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\pascals_triangle.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\pascals_triangle_ii.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\best_time_to_buy_and_sell_stock.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\valid_palindrome.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\best_time_to_buy_and_sell_stock_ii.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="practise.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\blocking_queue\blocking_queue_test.cpp">
+      <Filter>src\blocking_queue</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

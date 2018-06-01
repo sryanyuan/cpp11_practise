@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4A444256-3F5B-4DEC-ADA4-EDB0600FF71B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>practise</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\blocking_queue\blocking_queue.h" />
+    <ClInclude Include="src\blocking_queue\blocking_queue_test.h" />
+    <ClInclude Include="src\copy_on_write\copy_on_write.h" />
+    <ClInclude Include="src\functional\functional.h" />
+    <ClInclude Include="src\leetcode\add_binary.h" />
+    <ClInclude Include="src\leetcode\balanced_binary_tree.h" />
+    <ClInclude Include="src\leetcode\best_time_to_buy_and_sell_stock.h" />
+    <ClInclude Include="src\leetcode\best_time_to_buy_and_sell_stock_ii.h" />
+    <ClInclude Include="src\leetcode\binary_tree_level_order_traversal_ii.h" />
+    <ClInclude Include="src\leetcode\climbing_stairs.h" />
+    <ClInclude Include="src\leetcode\convert_sorted_array_to_binary_search_tree.h" />
+    <ClInclude Include="src\leetcode\count_and_say.h" />
+    <ClInclude Include="src\leetcode\length_of_last_word.h" />
+    <ClInclude Include="src\leetcode\longest_common_prefix.h" />
+    <ClInclude Include="src\leetcode\maximum_depth_of_binary_tree.h" />
+    <ClInclude Include="src\leetcode\maximum_subarray.h" />
+    <ClInclude Include="src\leetcode\merge_sorted_array.h" />
+    <ClInclude Include="src\leetcode\minimum_depth_of_binary_tree.h" />
+    <ClInclude Include="src\leetcode\pascals_triangle.h" />
+    <ClInclude Include="src\leetcode\pascals_triangle_ii.h" />
+    <ClInclude Include="src\leetcode\path_sum.h" />
+    <ClInclude Include="src\leetcode\plus_one.h" />
+    <ClInclude Include="src\leetcode\remove_duplicates_from_sorted_list.h" />
+    <ClInclude Include="src\leetcode\roman_to_integer.h" />
+    <ClInclude Include="src\leetcode\same_tree.h" />
+    <ClInclude Include="src\leetcode\sqrt(x).h" />
+    <ClInclude Include="src\leetcode\symmetric_tree.h" />
+    <ClInclude Include="src\leetcode\valid_palindrome.h" />
+    <ClInclude Include="src\leetcode\valid_parentheses.h" />
+    <ClInclude Include="src\utils\mutex_lock_guard.h" />
+    <ClInclude Include="src\variadic_template\variadic_template.h" />
+    <ClInclude Include="src\weekcallback\weakcallback.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="practise.cpp" />
+    <ClCompile Include="src\blocking_queue\blocking_queue_test.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
