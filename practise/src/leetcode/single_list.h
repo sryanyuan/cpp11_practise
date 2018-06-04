@@ -7,18 +7,11 @@ using std::vector;
 class SingleNumber {
 public:
 	static int main(vector<int>& nums) {
-		int cnts[10] = {0};
-		for (auto num : nums) {
-			cnts[num]++;
+		int ret = nums[0];
+		for (int i = 1; i < nums.size(); i++) {
+			ret ^= nums[i];
 		}
-
-		for (int i = 0; i < 10; i++) {
-			if (cnts[i] == 1) {
-				return i;
-			}
-		}
-
-		return 0;
+		return ret;
 	}
 };
 

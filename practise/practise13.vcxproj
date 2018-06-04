@@ -92,11 +92,13 @@
     <ClInclude Include="src\leetcode\convert_sorted_array_to_binary_search_tree.h" />
     <ClInclude Include="src\leetcode\count_and_say.h" />
     <ClInclude Include="src\leetcode\length_of_last_word.h" />
+    <ClInclude Include="src\leetcode\linked_list_circle.h" />
     <ClInclude Include="src\leetcode\longest_common_prefix.h" />
     <ClInclude Include="src\leetcode\maximum_depth_of_binary_tree.h" />
     <ClInclude Include="src\leetcode\maximum_subarray.h" />
     <ClInclude Include="src\leetcode\merge_sorted_array.h" />
     <ClInclude Include="src\leetcode\minimum_depth_of_binary_tree.h" />
+    <ClInclude Include="src\leetcode\min_stack.h" />
     <ClInclude Include="src\leetcode\pascals_triangle.h" />
     <ClInclude Include="src\leetcode\pascals_triangle_ii.h" />
     <ClInclude Include="src\leetcode\path_sum.h" />
@@ -104,6 +106,7 @@
     <ClInclude Include="src\leetcode\remove_duplicates_from_sorted_list.h" />
     <ClInclude Include="src\leetcode\roman_to_integer.h" />
     <ClInclude Include="src\leetcode\same_tree.h" />
+    <ClInclude Include="src\leetcode\single_list.h" />
     <ClInclude Include="src\leetcode\sqrt(x).h" />
     <ClInclude Include="src\leetcode\symmetric_tree.h" />
     <ClInclude Include="src\leetcode\valid_palindrome.h" />

@@ -26,6 +26,7 @@
 #include "src/leetcode/pascals_triangle_ii.h"
 #include "src/leetcode/best_time_to_buy_and_sell_stock.h"
 #include "src/leetcode/valid_palindrome.h"
+#include "src/leetcode/min_stack.h"
 
 int main(int argc, char* argv[])
 {
@@ -33,7 +34,7 @@ int main(int argc, char* argv[])
     //WeakFactory::main(argc, argv);
     //VariadicTemplate::main(argc, argv);
     //blocking_queue_test_overview();
-    ValidPalindrome::test();
+	MinStackDoubleLinkedList::test();
 
 	return 0;
 }

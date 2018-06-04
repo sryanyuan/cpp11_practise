@@ -144,6 +144,15 @@
     <ClInclude Include="src\leetcode\best_time_to_buy_and_sell_stock_ii.h">
       <Filter>src\leetcode</Filter>
     </ClInclude>
+    <ClInclude Include="src\leetcode\single_list.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\linked_list_circle.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\min_stack.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
