@@ -27,14 +27,12 @@
 #include "src/leetcode/best_time_to_buy_and_sell_stock.h"
 #include "src/leetcode/valid_palindrome.h"
 #include "src/leetcode/min_stack.h"
+#include "src/leetcode/palindrome_linked_list.h"
+#include "src/leetcode/lowest_common_ancestor_of_a_binary_search_tree.h"
 
 int main(int argc, char* argv[])
 {
-    //CopyOnWrite::main(argc, argv);
-    //WeakFactory::main(argc, argv);
-    //VariadicTemplate::main(argc, argv);
-    //blocking_queue_test_overview();
-	MinStackDoubleLinkedList::test();
+	LowestCommonAncestorOfABinarySearchTree::test();
 
 	return 0;
 }
