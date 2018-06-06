@@ -6,11 +6,11 @@ private:
 	struct ListNode {
 		int val;
 		ListNode *next;
-		ListNode(int x) : val(x), next(NULL) {}
+		ListNode(int x) : val(x), next(nullptr) {}
 	};
 
 public:
-	static void bool main(ListNode* head) {
+	static bool main(ListNode* head) {
 		ListNode* slow = head;
 		ListNode* fast = head;
 

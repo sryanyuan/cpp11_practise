@@ -29,10 +29,21 @@
 #include "src/leetcode/min_stack.h"
 #include "src/leetcode/palindrome_linked_list.h"
 #include "src/leetcode/lowest_common_ancestor_of_a_binary_search_tree.h"
+#include "src/leetcode/ugly_number.h"
+#include "src/leetcode/first_bad_version.h"
+#include "src/leetcode/move_zeros.h"
+#include "src/leetcode/word_pattern.h"
+#include "src/leetcode/range_sum_query_immutable.h"
+#include "src/leetcode/power_of_four.h"
+#include "src/leetcode/reverse_string.h"
+#include "src/leetcode/reverse_vowels_of_a_string.h"
+#include "src/leetcode/valid_perfect_square.h"
+#include "src/leetcode/guess_number_higher_or_lower.h"
+#include "src/leetcode/first_unique_character_in_a_string.h"
 
 int main(int argc, char* argv[])
 {
-	LowestCommonAncestorOfABinarySearchTree::test();
+	FirstUniqueCharacterInAString::test();
 
 	return 0;
 }

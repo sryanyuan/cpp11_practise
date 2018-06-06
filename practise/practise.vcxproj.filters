@@ -225,6 +225,66 @@
     <ClInclude Include="src\leetcode\valid_palindrome.h">
       <Filter>src\leetcode</Filter>
     </ClInclude>
+    <ClInclude Include="src\leetcode\lowest_common_ancestor_of_a_binary_search_tree.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\binary_tree_paths.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\add_digits.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\ugly_number.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\first_bad_version.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\move_zeros.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\word_pattern.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\nim_game.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\range_sum_query_immutable.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\power_of_three.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\power_of_four.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\reverse_string.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\reverse_vowels_of_a_string.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\intersection_of_two_arrays.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\intersection_of_two_arrays_ii.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\valid_perfect_square.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\sum_of_two_integers.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\guess_number_higher_or_lower.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\ransom_note.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\first_unique_character_in_a_string.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -235,6 +295,12 @@
     </ClCompile>
     <ClCompile Include="src\blocking_queue\blocking_queue_test.cpp">
       <Filter>src\blocking_queue</Filter>
+    </ClCompile>
+    <ClCompile Include="src\leetcode\delete_node_in_a_linked_list.h">
+      <Filter>src\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\leetcode\valid_anagram.h">
+      <Filter>src\leetcode</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
