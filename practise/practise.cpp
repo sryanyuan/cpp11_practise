@@ -40,10 +40,15 @@
 #include "src/leetcode/valid_perfect_square.h"
 #include "src/leetcode/guess_number_higher_or_lower.h"
 #include "src/leetcode/first_unique_character_in_a_string.h"
+#include "src/leetcode/nth_digit.h"
+#include "src/leetcode/binary_watch.h"
+#include "src/leetcode/convert_a_number_to_hexademical.h"
+#include "src/leetcode/longest_palindrome.h"
+#include "src/leetcode/third_maximum_number.h"
 
 int main(int argc, char* argv[])
 {
-	FirstUniqueCharacterInAString::test();
+	ThirdMaximumNumber::test();
 
 	return 0;
 }

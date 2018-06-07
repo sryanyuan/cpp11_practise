@@ -90,9 +90,11 @@
     <ClInclude Include="src\leetcode\best_time_to_buy_and_sell_stock_ii.h" />
     <ClInclude Include="src\leetcode\binary_tree_level_order_traversal_ii.h" />
     <ClInclude Include="src\leetcode\binary_tree_paths.h" />
+    <ClInclude Include="src\leetcode\binary_watch.h" />
     <ClInclude Include="src\leetcode\climbing_stairs.h" />
     <ClInclude Include="src\leetcode\contains_duplicate.h" />
     <ClInclude Include="src\leetcode\contains_duplicate_ii.h" />
+    <ClInclude Include="src\leetcode\convert_a_number_to_hexademical.h" />
     <ClInclude Include="src\leetcode\convert_sorted_array_to_binary_search_tree.h" />
     <ClInclude Include="src\leetcode\count_and_say.h" />
     <ClInclude Include="src\leetcode\count_primes.h" />
@@ -101,6 +103,7 @@
     <ClInclude Include="src\leetcode\factorial_trailing_zeros.h" />
     <ClInclude Include="src\leetcode\first_bad_version.h" />
     <ClInclude Include="src\leetcode\first_unique_character_in_a_string.h" />
+    <ClInclude Include="src\leetcode\fizz_buzz.h" />
     <ClInclude Include="src\leetcode\guess_number_higher_or_lower.h" />
     <ClInclude Include="src\leetcode\happy_number.h" />
     <ClInclude Include="src\leetcode\house_robber.h" />
@@ -114,6 +117,7 @@
     <ClInclude Include="src\leetcode\length_of_last_word.h" />
     <ClInclude Include="src\leetcode\linked_list_circle.h" />
     <ClInclude Include="src\leetcode\longest_common_prefix.h" />
+    <ClInclude Include="src\leetcode\longest_palindrome.h" />
     <ClInclude Include="src\leetcode\lowest_common_ancestor_of_a_binary_search_tree.h" />
     <ClInclude Include="src\leetcode\majority_element.h" />
     <ClInclude Include="src\leetcode\maximum_depth_of_binary_tree.h" />
@@ -124,6 +128,7 @@
     <ClInclude Include="src\leetcode\min_stack_.h" />
     <ClInclude Include="src\leetcode\move_zeros.h" />
     <ClInclude Include="src\leetcode\nim_game.h" />
+    <ClInclude Include="src\leetcode\nth_digit.h" />
     <ClInclude Include="src\leetcode\number_of_1_bits.h" />
     <ClInclude Include="src\leetcode\palindrome_linked_list.h" />
     <ClInclude Include="src\leetcode\pascals_triangle.h" />
@@ -147,8 +152,10 @@
     <ClInclude Include="src\leetcode\same_tree.h" />
     <ClInclude Include="src\leetcode\single_list.h" />
     <ClInclude Include="src\leetcode\sqrt(x).h" />
+    <ClInclude Include="src\leetcode\sum_of_left_leaves.h" />
     <ClInclude Include="src\leetcode\sum_of_two_integers.h" />
     <ClInclude Include="src\leetcode\symmetric_tree.h" />
+    <ClInclude Include="src\leetcode\third_maximum_number.h" />
     <ClInclude Include="src\leetcode\two_sum_ii_input_array_is_sorted.h" />
     <ClInclude Include="src\leetcode\ugly_number.h" />
     <ClInclude Include="src\leetcode\valid_palindrome.h" />
