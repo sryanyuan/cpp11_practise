@@ -45,10 +45,11 @@
 #include "src/leetcode/convert_a_number_to_hexademical.h"
 #include "src/leetcode/longest_palindrome.h"
 #include "src/leetcode/third_maximum_number.h"
+#include "src/leetcode/trapping_rain_water.h"
 
 int main(int argc, char* argv[])
 {
-	ThirdMaximumNumber::test();
+	TrappingRainWater::test();
 
 	return 0;
 }
