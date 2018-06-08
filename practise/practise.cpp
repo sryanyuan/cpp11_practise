@@ -46,10 +46,18 @@
 #include "src/leetcode/longest_palindrome.h"
 #include "src/leetcode/third_maximum_number.h"
 #include "src/leetcode/trapping_rain_water.h"
+#include "src/leetcode/add_strings.h"
+#include "src/leetcode/number_of_segments_in_a_string.h"
+#include "src/leetcode/path_sum_iii.h"
+#include "src/leetcode/find_all_anagrams_in_a_string.h"
+#include "src/leetcode/arranging_coins.h"
+#include "src/leetcode/string_compression.h"
+#include "src/leetcode/assign_cookies.h"
+#include "src/leetcode/repeated_substring_pattern.h"
 
 int main(int argc, char* argv[])
 {
-	TrappingRainWater::test();
+	RepeatedSubstringPattern::test();
 
 	return 0;
 }
