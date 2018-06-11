@@ -5,40 +5,41 @@
 using std::string;
 #include <vector>
 using std::vector;
+#include <algorithm>
+#include <unordered_map>
+using std::unordered_map;
 
 class RelativeRanks {
 public:
     static vector<string> main(vector<int>& nums) {
         static const char* medals[] = {"Gold Medal", "Silver Medal", "Bronze Medal"};
-        const int MAX = 10001;
-        int asc[3] = {-1, -1, -1};
+		vector<int> ranknums = nums;
+		std::sort(ranknums.rbegin(), ranknums.rend());
+		unordered_map<int, int> rank;
+		for (int i = 0; i < ranknums.size(); i++) {
+			rank.insert(std::make_pair(ranknums[i], i));
+		}
 
-        for (auto v : nums) {
-            if (v > asc[2]) {
-                asc[0] = asc[1];
-                asc[1] = asc[2];
-                asc[2] = v;
-            } else if (v > asc[1]) {
-                asc[0] = asc[1];
-                asc[1] = v;
-            } else if (v > asc[0]) {
-                asc[0] = v;
-            }
-        }
+		vector<string> rets;
+		rets.reserve(nums.size());
 
-        vector<string> rets;
-        for (auto v : nums) {
-            if (v == asc[2]) {
-                rets.push_back(medals[0]);
-            } else if (v == asc[1]) {
-                rets.push_back(medals[1]);
-            } else if (v == asc[0]) {
-                rets.push_back(medals[2]);
-            } else {
-                rets.push_back(std::to_string(v));
-            }
-        }
-        return rets;
+		for (int i = 0; i < nums.size(); i++) {
+			auto fnd = rank.find(nums[i]);
+			int rankv = fnd->second;
+			if (0 == rankv) {
+				rets.push_back(medals[0]);
+			}
+			else if (1 == rankv) {
+				rets.push_back(medals[1]);
+			}
+			else if (2 == rankv) {
+				rets.push_back(medals[2]);
+			}
+			else {
+				rets.push_back(std::to_string(rankv + 1));
+			}
+		}
+		return rets;
     }
 };
 
