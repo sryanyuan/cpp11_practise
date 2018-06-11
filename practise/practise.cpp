@@ -54,10 +54,20 @@
 #include "src/leetcode/string_compression.h"
 #include "src/leetcode/assign_cookies.h"
 #include "src/leetcode/repeated_substring_pattern.h"
+#include "src/leetcode/hamming_distance.h"
+#include "src/leetcode/island_perimeter.h"
+#include "src/leetcode/heaters.h"
+#include "src/leetcode/number_complement.h"
+#include "src/leetcode/license_key_formatting.h"
+#include "src/leetcode/max_consecutive_ones.h"
+#include "src/leetcode/construct_the_rectangle.h"
+#include "src/leetcode/keyboard_row.h"
+#include "src/leetcode/find_mode_in_binary_search_tree.h"
+#include "src/leetcode/base_7.h"
 
 int main(int argc, char* argv[])
 {
-	RepeatedSubstringPattern::test();
+	Base7::test();
 
 	return 0;
 }
