@@ -64,10 +64,17 @@
 #include "src/leetcode/keyboard_row.h"
 #include "src/leetcode/find_mode_in_binary_search_tree.h"
 #include "src/leetcode/base_7.h"
+#include "src/leetcode/perfect_number.h"
+#include "src/leetcode/k_diff_pairs_in_an_array.h"
+#include "src/leetcode/diameter_of_binary_tree.h"
+#include "src/leetcode/reverse_words_in_a_string_iii.h"
+#include "src/leetcode/reshape_the_matrix.h"
+#include "src/leetcode/subtree_of_another_tree.h"
+#include "src/leetcode/shortest_unsorted_continuous_subarray.h"
 
 int main(int argc, char* argv[])
 {
-	Base7::test();
+	ShortestUnsortedContinuousSubarray::test();
 
 	return 0;
 }
