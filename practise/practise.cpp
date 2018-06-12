@@ -71,10 +71,12 @@
 #include "src/leetcode/reshape_the_matrix.h"
 #include "src/leetcode/subtree_of_another_tree.h"
 #include "src/leetcode/shortest_unsorted_continuous_subarray.h"
+#include "src/leetcode/longest_harmonious_subsequence.h"
+#include "src/leetcode/minimum_index_sum_of_two_lists.h"
 
 int main(int argc, char* argv[])
 {
-	ShortestUnsortedContinuousSubarray::test();
+	MinimumIndexSumOfTwoLists::test();
 
 	return 0;
 }

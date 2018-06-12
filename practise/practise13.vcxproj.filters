@@ -393,6 +393,63 @@
     <ClInclude Include="src\leetcode\string_compression.h">
       <Filter>src\leetcode</Filter>
     </ClInclude>
+    <ClInclude Include="src\leetcode\array_partition.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\binary_tree_tilt.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\convert_bst_to_greater_tree.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\detect_capital.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\diameter_of_binary_tree.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\distribute_candies.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\k_diff_pairs_in_an_array.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\longest_harmonious_subsequence.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\longest_uncommon_subsequence_i.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\minimum_absolute_difference_in_bst.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\perfect_number.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\reshape_the_matrix.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\reverse_string_ii.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\reverse_words_in_a_string_iii.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\shortest_unsorted_continuous_subarray.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\student_attendance_record_i.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\subtree_of_another_tree.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\range_addition_ii.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\minimum_index_sum_of_two_lists.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
