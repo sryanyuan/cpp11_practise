@@ -191,6 +191,7 @@
     <ClInclude Include="src\leetcode\roman_to_integer.h" />
     <ClInclude Include="src\leetcode\rotate_array.h" />
     <ClInclude Include="src\leetcode\same_tree.h" />
+    <ClInclude Include="src\leetcode\set_mismatch.h" />
     <ClInclude Include="src\leetcode\shortest_unsorted_continuous_subarray.h" />
     <ClInclude Include="src\leetcode\single_list.h" />
     <ClInclude Include="src\leetcode\sqrt(x).h" />

@@ -450,6 +450,9 @@
     <ClInclude Include="src\leetcode\minimum_index_sum_of_two_lists.h">
       <Filter>src\leetcode</Filter>
     </ClInclude>
+    <ClInclude Include="src\leetcode\set_mismatch.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

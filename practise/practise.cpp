@@ -79,10 +79,11 @@
 #include "src/leetcode/maximum_product_of_tree_numbers.h"
 #include "src/leetcode/average_of_levels_in_binary_tree.h"
 #include "src/leetcode/maximum_average_subarray_i.h"
+#include "src/leetcode/set_mismatch.h"
 
 int main(int argc, char* argv[])
 {
-	MaximumAverageSubarray::test();
+	SetMismatch::test();
 
 	return 0;
 }
