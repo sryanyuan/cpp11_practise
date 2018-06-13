@@ -73,10 +73,16 @@
 #include "src/leetcode/shortest_unsorted_continuous_subarray.h"
 #include "src/leetcode/longest_harmonious_subsequence.h"
 #include "src/leetcode/minimum_index_sum_of_two_lists.h"
+#include "src/leetcode/can_place_flowers.h"
+#include "src/leetcode/construct_string_from_binary_tree.h"
+#include "src/leetcode/merge_two_binary_trees.h"
+#include "src/leetcode/maximum_product_of_tree_numbers.h"
+#include "src/leetcode/average_of_levels_in_binary_tree.h"
+#include "src/leetcode/maximum_average_subarray_i.h"
 
 int main(int argc, char* argv[])
 {
-	MinimumIndexSumOfTwoLists::test();
+	MaximumAverageSubarray::test();
 
 	return 0;
 }

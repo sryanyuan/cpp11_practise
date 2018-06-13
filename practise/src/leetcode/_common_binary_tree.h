@@ -1,6 +1,7 @@
 #ifndef _INC_COMMON_BINARY_TREE_
 #define _INC_COMMON_BINARY_TREE_
 
+#include "_common_all.h"
 #include <string>
 using std::string;
 #include <algorithm>
@@ -72,6 +73,30 @@ public:
             }
         }
         return root;
+    }
+
+    static string treeNodeToString(TreeNode* root) {
+        if (root == nullptr) {
+            return "[]";
+        }
+
+        string output = "";
+        queue<TreeNode*> q;
+        q.push(root);
+        while(!q.empty()) {
+            TreeNode* node = q.front();
+            q.pop();
+
+            if (node == nullptr) {
+                output += "null, ";
+                continue;
+            }
+
+            output += std::to_string(node->val) + ", ";
+            q.push(node->left);
+            q.push(node->right);
+        }
+        return "[" + output.substr(0, output.length() - 2) + "]";
     }
 };
 
