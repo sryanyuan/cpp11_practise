@@ -8,28 +8,27 @@ public:
 	static void test() {
 		vector<int> nums;
 		nums.push_back(1);
-		nums.push_back(2);
-		nums.push_back(2);
-		nums.push_back(3);
+		nums.push_back(1);
 		auto ret = main(nums);
 	}
 
 	static vector<int> main(vector<int>& nums) {
 		std::sort(nums.begin(), nums.end());
 		vector<int> ret(2);
-		int offset = 0;
 
+		int pre = 0;
 		for (int i = 0; i < nums.size(); i++) {
-			int want = i + 1;
-			if (nums[i] != want) {
-				ret[1] = want;
-				// Find duplicated numbers
-				for (int j = i + 1; j < nums.size() - 2; j++) {
-					if (nums[j] == nums[j + 1]) {
-						ret[0] = nums[0];
-						return ret;
-					}
+			if (pre != nums[i] - 1) {
+				if (pre == nums[i]) {
+					ret[0] = pre;
 				}
+				else {
+					ret[1] = pre + 1;
+				}
+			}
+			pre = nums[i];
+			if (0 != ret[0] && 0 != ret[1]) {
+				return ret;
 			}
 		}
 		return ret;
