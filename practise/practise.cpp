@@ -80,10 +80,18 @@
 #include "src/leetcode/average_of_levels_in_binary_tree.h"
 #include "src/leetcode/maximum_average_subarray_i.h"
 #include "src/leetcode/set_mismatch.h"
+#include "src/leetcode/two_sum_iv_input_is_bst.h"
+#include "src/leetcode/non_decreasing_array.h"
+#include "src/leetcode/trim_a_binary_search_tree.h"
+#include "src/leetcode/second_minimum_node_in_a_binary_tree.h"
+#include "src/leetcode/valid_palindrome_ii.h"
+#include "src/leetcode/repeated_string_match.h"
+#include "src/leetcode/longest_univalue_path.h"
+#include "src/leetcode/binary_number_with_alternating_bits.h"
 
 int main(int argc, char* argv[])
 {
-	SetMismatch::test();
+	BinaryNumberWithAlternatingBits::test();
 
 	return 0;
 }

@@ -31,6 +31,10 @@ public:
 				return ret;
 			}
 		}
+        if (0 == ret[1]) {
+            ret[1] = nums.size();
+        }
+        
 		return ret;
 	}
 };
