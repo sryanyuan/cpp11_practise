@@ -88,10 +88,12 @@
 #include "src/leetcode/repeated_string_match.h"
 #include "src/leetcode/longest_univalue_path.h"
 #include "src/leetcode/binary_number_with_alternating_bits.h"
+#include "src/leetcode/count_binary_substrings.h"
+#include "src/leetcode/degree_of_an_array.h"
 
 int main(int argc, char* argv[])
 {
-	BinaryNumberWithAlternatingBits::test();
+	DegreeOfAnArray::test();
 
 	return 0;
 }
