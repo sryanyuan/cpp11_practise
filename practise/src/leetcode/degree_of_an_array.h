@@ -8,7 +8,7 @@ public:
 	struct GroupInfo {
 		int start;
 		int end;
-		int count = 0;
+		int count;
 		int value;
 
 		GroupInfo(int v, int i) {

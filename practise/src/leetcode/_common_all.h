@@ -13,6 +13,8 @@ using std::unordered_map;
 using std::stack;
 #include <algorithm>
 #include <stdlib.h>
+#include <unordered_set>
+using std::unordered_set;
 
 #ifndef max
 #define max(a,b) (((a) > (b)) ? (a) : (b))

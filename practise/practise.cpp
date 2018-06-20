@@ -90,10 +90,19 @@
 #include "src/leetcode/binary_number_with_alternating_bits.h"
 #include "src/leetcode/count_binary_substrings.h"
 #include "src/leetcode/degree_of_an_array.h"
+#include "src/leetcode/longest-word-in-dictionary.h"
+#include "src/leetcode/find-pivot-index.h"
+#include "src/leetcode/flood-fill.h"
+#include "src/leetcode/find-smallest-letter-greater-than-target.h"
+#include "src/leetcode/min-cost-climbing-stairs.h"
+#include "src/leetcode/prime-number-of-set-bits-in-binary-representation.h"
+#include "src/leetcode/letter-case-permutation.h"
+#include "src/leetcode/rotate-string.h"
+#include "src/leetcode/subdomain-visit-count.h"
 
 int main(int argc, char* argv[])
 {
-	DegreeOfAnArray::test();
+	SubdomainVisitCount::test();
 
 	return 0;
 }
