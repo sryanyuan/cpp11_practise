@@ -15,6 +15,7 @@ using std::stack;
 #include <stdlib.h>
 #include <unordered_set>
 using std::unordered_set;
+#include <sstream>
 
 #ifndef max
 #define max(a,b) (((a) > (b)) ? (a) : (b))

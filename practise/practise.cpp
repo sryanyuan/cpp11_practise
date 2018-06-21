@@ -99,10 +99,17 @@
 #include "src/leetcode/letter-case-permutation.h"
 #include "src/leetcode/rotate-string.h"
 #include "src/leetcode/subdomain-visit-count.h"
+#include "src/leetcode/magic-squares-in-grid.h"
+#include "src/leetcode/maximize-distance-to-closest-person.h"
+#include "src/leetcode/peak-index-in-a-mountain-array.h"
+#include "src/leetcode/3sum.h"
+#include "src/leetcode/3sum-closest.h"
+#include "src/leetcode/letter-combinations-of-a-phone-number.h"
+#include "src/leetcode/4sum.h"
 
 int main(int argc, char* argv[])
 {
-	SubdomainVisitCount::test();
+	FourSum::test();
 
 	return 0;
 }
