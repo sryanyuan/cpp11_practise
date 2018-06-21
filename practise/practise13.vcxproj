@@ -84,6 +84,9 @@
     <ClInclude Include="src\copy_on_write\copy_on_write.h" />
     <ClInclude Include="src\functional\functional.h" />
     <ClInclude Include="src\leetcode\1-bit-and-2-bit-characters.h" />
+    <ClInclude Include="src\leetcode\3sum-closest.h" />
+    <ClInclude Include="src\leetcode\3sum.h" />
+    <ClInclude Include="src\leetcode\4sum.h" />
     <ClInclude Include="src\leetcode\add_binary.h" />
     <ClInclude Include="src\leetcode\add_digits.h" />
     <ClInclude Include="src\leetcode\add_strings.h" />
@@ -91,6 +94,7 @@
     <ClInclude Include="src\leetcode\array_partition.h" />
     <ClInclude Include="src\leetcode\assign_cookies.h" />
     <ClInclude Include="src\leetcode\average_of_levels_in_binary_tree.h" />
+    <ClInclude Include="src\leetcode\backspace-string-compare.h" />
     <ClInclude Include="src\leetcode\balanced_binary_tree.h" />
     <ClInclude Include="src\leetcode\baseball_game.h" />
     <ClInclude Include="src\leetcode\base_7.h" />
@@ -105,6 +109,7 @@
     <ClInclude Include="src\leetcode\climbing_stairs.h" />
     <ClInclude Include="src\leetcode\construct_string_from_binary_tree.h" />
     <ClInclude Include="src\leetcode\construct_the_rectangle.h" />
+    <ClInclude Include="src\leetcode\container-with-most-water.h" />
     <ClInclude Include="src\leetcode\contains_duplicate.h" />
     <ClInclude Include="src\leetcode\contains_duplicate_ii.h" />
     <ClInclude Include="src\leetcode\convert_a_number_to_hexademical.h" />
@@ -132,7 +137,9 @@
     <ClInclude Include="src\leetcode\first_bad_version.h" />
     <ClInclude Include="src\leetcode\first_unique_character_in_a_string.h" />
     <ClInclude Include="src\leetcode\fizz_buzz.h" />
+    <ClInclude Include="src\leetcode\flipping-an-image.h" />
     <ClInclude Include="src\leetcode\flood-fill.h" />
+    <ClInclude Include="src\leetcode\generate-parentheses.h" />
     <ClInclude Include="src\leetcode\goat-latin.h" />
     <ClInclude Include="src\leetcode\guess_number_higher_or_lower.h" />
     <ClInclude Include="src\leetcode\hamming_distance.h" />
@@ -142,6 +149,7 @@
     <ClInclude Include="src\leetcode\image_smoother.h" />
     <ClInclude Include="src\leetcode\implement_queue_using_stacks.h" />
     <ClInclude Include="src\leetcode\implement_stack_using_queues.h" />
+    <ClInclude Include="src\leetcode\integer-to-roman.h" />
     <ClInclude Include="src\leetcode\intersection_of_two_arrays.h" />
     <ClInclude Include="src\leetcode\intersection_of_two_arrays_ii.h" />
     <ClInclude Include="src\leetcode\intersection_of_two_linked_lists.h" />
@@ -156,6 +164,7 @@
     <ClInclude Include="src\leetcode\largest-triangle-area.h" />
     <ClInclude Include="src\leetcode\length_of_last_word.h" />
     <ClInclude Include="src\leetcode\letter-case-permutation.h" />
+    <ClInclude Include="src\leetcode\letter-combinations-of-a-phone-number.h" />
     <ClInclude Include="src\leetcode\license_key_formatting.h" />
     <ClInclude Include="src\leetcode\linked_list_circle.h" />
     <ClInclude Include="src\leetcode\longest-word-in-dictionary.h" />
@@ -166,7 +175,9 @@
     <ClInclude Include="src\leetcode\longest_uncommon_subsequence_i.h" />
     <ClInclude Include="src\leetcode\longest_univalue_path.h" />
     <ClInclude Include="src\leetcode\lowest_common_ancestor_of_a_binary_search_tree.h" />
+    <ClInclude Include="src\leetcode\magic-squares-in-grid.h" />
     <ClInclude Include="src\leetcode\majority_element.h" />
+    <ClInclude Include="src\leetcode\maximize-distance-to-closest-person.h" />
     <ClInclude Include="src\leetcode\maximum_average_subarray_i.h" />
     <ClInclude Include="src\leetcode\maximum_depth_of_binary_tree.h" />
     <ClInclude Include="src\leetcode\maximum_product_of_tree_numbers.h" />
@@ -199,6 +210,7 @@
     <ClInclude Include="src\leetcode\pascals_triangle_ii.h" />
     <ClInclude Include="src\leetcode\path_sum.h" />
     <ClInclude Include="src\leetcode\path_sum_iii.h" />
+    <ClInclude Include="src\leetcode\peak-index-in-a-mountain-array.h" />
     <ClInclude Include="src\leetcode\perfect_number.h" />
     <ClInclude Include="src\leetcode\plus_one.h" />
     <ClInclude Include="src\leetcode\positions-of-large-groups.h" />
@@ -210,7 +222,9 @@
     <ClInclude Include="src\leetcode\range_sum_query_immutable.h" />
     <ClInclude Include="src\leetcode\ransom_note.h" />
     <ClInclude Include="src\leetcode\read_n_characters_given_read4.h" />
+    <ClInclude Include="src\leetcode\rectangle-overlap.h" />
     <ClInclude Include="src\leetcode\relative_ranks.h" />
+    <ClInclude Include="src\leetcode\remove-nth-node-from-end-of-list.h" />
     <ClInclude Include="src\leetcode\remove_duplicates_from_sorted_list.h" />
     <ClInclude Include="src\leetcode\remove_linked_list_elements.h" />
     <ClInclude Include="src\leetcode\repeated_string_match.h" />
@@ -241,6 +255,7 @@
     <ClInclude Include="src\leetcode\sum_of_left_leaves.h" />
     <ClInclude Include="src\leetcode\sum_of_square_numbers.h" />
     <ClInclude Include="src\leetcode\sum_of_two_integers.h" />
+    <ClInclude Include="src\leetcode\swap-nodes-in-pairs.h" />
     <ClInclude Include="src\leetcode\symmetric_tree.h" />
     <ClInclude Include="src\leetcode\third_maximum_number.h" />
     <ClInclude Include="src\leetcode\toeplitz-matrix.h" />
@@ -258,6 +273,7 @@
     <ClInclude Include="src\leetcode\word_pattern.h" />
     <ClInclude Include="src\leetcode\_common_all.h" />
     <ClInclude Include="src\leetcode\_common_binary_tree.h" />
+    <ClInclude Include="src\leetcode\_common_list.h" />
     <ClInclude Include="src\utils\mutex_lock_guard.h" />
     <ClInclude Include="src\variadic_template\variadic_template.h" />
     <ClInclude Include="src\weekcallback\weakcallback.h" />

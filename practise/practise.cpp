@@ -106,10 +106,12 @@
 #include "src/leetcode/3sum-closest.h"
 #include "src/leetcode/letter-combinations-of-a-phone-number.h"
 #include "src/leetcode/4sum.h"
+#include "src/leetcode/generate-parentheses.h"
+#include "src/leetcode/swap-nodes-in-pairs.h"
 
 int main(int argc, char* argv[])
 {
-	FourSum::test();
+	SwapNodesInPairs::test();
 
 	return 0;
 }
