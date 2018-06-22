@@ -108,10 +108,12 @@
 #include "src/leetcode/4sum.h"
 #include "src/leetcode/generate-parentheses.h"
 #include "src/leetcode/swap-nodes-in-pairs.h"
+#include "src/leetcode/divide-two-integers.h"
+#include "src/leetcode/next-permutation.h"
 
 int main(int argc, char* argv[])
 {
-	SwapNodesInPairs::test();
+	NextPermutation::test();
 
 	return 0;
 }

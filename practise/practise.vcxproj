@@ -116,6 +116,7 @@
     <ClInclude Include="src\leetcode\detect_capital.h" />
     <ClInclude Include="src\leetcode\diameter_of_binary_tree.h" />
     <ClInclude Include="src\leetcode\distribute_candies.h" />
+    <ClInclude Include="src\leetcode\divide-two-integers.h" />
     <ClInclude Include="src\leetcode\employee_importance.h" />
     <ClInclude Include="src\leetcode\find-pivot-index.h" />
     <ClInclude Include="src\leetcode\find-smallest-letter-greater-than-target.h" />
@@ -125,6 +126,7 @@
     <ClInclude Include="src\leetcode\find_mode_in_binary_search_tree.h" />
     <ClInclude Include="src\leetcode\flipping-an-image.h" />
     <ClInclude Include="src\leetcode\flood-fill.h" />
+    <ClInclude Include="src\leetcode\generate-parentheses.h" />
     <ClInclude Include="src\leetcode\goat-latin.h" />
     <ClInclude Include="src\leetcode\hamming_distance.h" />
     <ClInclude Include="src\leetcode\heaters.h" />
@@ -158,6 +160,7 @@
     <ClInclude Include="src\leetcode\minimum_index_sum_of_two_lists.h" />
     <ClInclude Include="src\leetcode\minimum_moves_to_equal_array_elements.h" />
     <ClInclude Include="src\leetcode\most-common-word.h" />
+    <ClInclude Include="src\leetcode\next-permutation.h" />
     <ClInclude Include="src\leetcode\next_greater_element_i.h" />
     <ClInclude Include="src\leetcode\non_decreasing_array.h" />
     <ClInclude Include="src\leetcode\number-of-lines-to-write-string.h" />
@@ -178,6 +181,7 @@
     <ClInclude Include="src\leetcode\reverse_words_in_a_string_iii.h" />
     <ClInclude Include="src\leetcode\rotate-string.h" />
     <ClInclude Include="src\leetcode\rotated-digits.h" />
+    <ClInclude Include="src\leetcode\search-in-rotated-sorted-array.h" />
     <ClInclude Include="src\leetcode\second_minimum_node_in_a_binary_tree.h" />
     <ClInclude Include="src\leetcode\self-dividing-numbers.h" />
     <ClInclude Include="src\leetcode\set_mismatch.h" />
@@ -188,6 +192,7 @@
     <ClInclude Include="src\leetcode\subdomain-visit-count.h" />
     <ClInclude Include="src\leetcode\subtree_of_another_tree.h" />
     <ClInclude Include="src\leetcode\sum_of_square_numbers.h" />
+    <ClInclude Include="src\leetcode\swap-nodes-in-pairs.h" />
     <ClInclude Include="src\leetcode\toeplitz-matrix.h" />
     <ClInclude Include="src\leetcode\trim_a_binary_search_tree.h" />
     <ClInclude Include="src\leetcode\two_sum_iv_input_is_bst.h" />
