@@ -123,6 +123,7 @@
     <ClInclude Include="src\leetcode\detect_capital.h" />
     <ClInclude Include="src\leetcode\diameter_of_binary_tree.h" />
     <ClInclude Include="src\leetcode\distribute_candies.h" />
+    <ClInclude Include="src\leetcode\divide-two-integers.h" />
     <ClInclude Include="src\leetcode\employee_importance.h" />
     <ClInclude Include="src\leetcode\excel_sheet_column_number.h" />
     <ClInclude Include="src\leetcode\excel_sheet_column_title.h" />
@@ -196,6 +197,7 @@
     <ClInclude Include="src\leetcode\min_stack_.h" />
     <ClInclude Include="src\leetcode\most-common-word.h" />
     <ClInclude Include="src\leetcode\move_zeros.h" />
+    <ClInclude Include="src\leetcode\next-permutation.h" />
     <ClInclude Include="src\leetcode\next_greater_element_i.h" />
     <ClInclude Include="src\leetcode\nim_game.h" />
     <ClInclude Include="src\leetcode\non_decreasing_array.h" />
@@ -241,6 +243,7 @@
     <ClInclude Include="src\leetcode\rotated-digits.h" />
     <ClInclude Include="src\leetcode\rotate_array.h" />
     <ClInclude Include="src\leetcode\same_tree.h" />
+    <ClInclude Include="src\leetcode\search-in-rotated-sorted-array.h" />
     <ClInclude Include="src\leetcode\second_minimum_node_in_a_binary_tree.h" />
     <ClInclude Include="src\leetcode\self-dividing-numbers.h" />
     <ClInclude Include="src\leetcode\set_mismatch.h" />
@@ -265,6 +268,7 @@
     <ClInclude Include="src\leetcode\two_sum_iv_input_is_bst.h" />
     <ClInclude Include="src\leetcode\ugly_number.h" />
     <ClInclude Include="src\leetcode\unique-morse-code-words.h" />
+    <ClInclude Include="src\leetcode\valid-sudoku.h" />
     <ClInclude Include="src\leetcode\valid_anagram.h" />
     <ClInclude Include="src\leetcode\valid_palindrome.h" />
     <ClInclude Include="src\leetcode\valid_palindrome_ii.h" />
