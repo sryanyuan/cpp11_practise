@@ -45,22 +45,49 @@ public:
             return matrix[0];
         }
         int m = matrix.size();
-        int n = matrix[0].size;
+        int n = matrix[0].size();
 
-        int pi = 0;
+		int ci = 0, cj = 0;
         vector<int> res;
         int dir = 0;
         int offset = 0;
-        bool first = false;
         for (int i = 0; i < m * n; i++) {
-            if (pi == i) {
-                if (!first) {
-                    // next round
-                } else {
-                    res.push_back(matrix[i / n][i % n]);
-                }
-            }
+			res.push_back(matrix[ci][cj]);
+			if (dir == 0) {
+				cj++;
+				if (cj > n - 1 - offset) {
+					cj = n - 1 - offset;
+					ci++;
+					dir++;
+				}
+			}
+			else if (dir == 1) {
+				ci++;
+				if (ci > m - 1 - offset) {
+					ci = m - 1 - offset;
+					cj--;
+					dir++;
+				}
+			}
+			else if (dir == 2) {
+				cj--;
+				if (cj < offset) {
+					cj = offset;
+					ci--;
+					dir++;
+				}
+			}
+			else if (dir == 3) {
+				ci--;
+				if (ci <= offset) {
+					offset++;
+					ci = offset;
+					dir = 0;
+					cj++;
+				}
+			}
         }
+		return res;
 	}
 };
 

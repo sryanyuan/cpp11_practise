@@ -107,6 +107,8 @@
     <ClInclude Include="src\leetcode\binary_watch.h" />
     <ClInclude Include="src\leetcode\can_place_flowers.h" />
     <ClInclude Include="src\leetcode\climbing_stairs.h" />
+    <ClInclude Include="src\leetcode\combination-sum-ii.h" />
+    <ClInclude Include="src\leetcode\combination-sum.h" />
     <ClInclude Include="src\leetcode\construct_string_from_binary_tree.h" />
     <ClInclude Include="src\leetcode\construct_the_rectangle.h" />
     <ClInclude Include="src\leetcode\container-with-most-water.h" />
@@ -142,6 +144,7 @@
     <ClInclude Include="src\leetcode\flood-fill.h" />
     <ClInclude Include="src\leetcode\generate-parentheses.h" />
     <ClInclude Include="src\leetcode\goat-latin.h" />
+    <ClInclude Include="src\leetcode\group-anagrams.h" />
     <ClInclude Include="src\leetcode\guess_number_higher_or_lower.h" />
     <ClInclude Include="src\leetcode\hamming_distance.h" />
     <ClInclude Include="src\leetcode\happy_number.h" />
@@ -159,6 +162,7 @@
     <ClInclude Include="src\leetcode\isomorphic_strings.h" />
     <ClInclude Include="src\leetcode\jewels-and-stones.h" />
     <ClInclude Include="src\leetcode\judge_route_circle.h" />
+    <ClInclude Include="src\leetcode\jump-game.h" />
     <ClInclude Include="src\leetcode\keyboard_row.h" />
     <ClInclude Include="src\leetcode\k_diff_pairs_in_an_array.h" />
     <ClInclude Include="src\leetcode\largest-number-at-least-twice-of-others.h" />
@@ -185,6 +189,7 @@
     <ClInclude Include="src\leetcode\maximum_subarray.h" />
     <ClInclude Include="src\leetcode\max_area_of_island.h" />
     <ClInclude Include="src\leetcode\max_consecutive_ones.h" />
+    <ClInclude Include="src\leetcode\merge-intervals.h" />
     <ClInclude Include="src\leetcode\merge_sorted_array.h" />
     <ClInclude Include="src\leetcode\merge_two_binary_trees.h" />
     <ClInclude Include="src\leetcode\min-cost-climbing-stairs.h" />
@@ -197,6 +202,7 @@
     <ClInclude Include="src\leetcode\min_stack_.h" />
     <ClInclude Include="src\leetcode\most-common-word.h" />
     <ClInclude Include="src\leetcode\move_zeros.h" />
+    <ClInclude Include="src\leetcode\multiply-strings.h" />
     <ClInclude Include="src\leetcode\next-permutation.h" />
     <ClInclude Include="src\leetcode\next_greater_element_i.h" />
     <ClInclude Include="src\leetcode\nim_game.h" />
@@ -214,11 +220,14 @@
     <ClInclude Include="src\leetcode\path_sum_iii.h" />
     <ClInclude Include="src\leetcode\peak-index-in-a-mountain-array.h" />
     <ClInclude Include="src\leetcode\perfect_number.h" />
+    <ClInclude Include="src\leetcode\permutations-ii.h" />
+    <ClInclude Include="src\leetcode\permutations.h" />
     <ClInclude Include="src\leetcode\plus_one.h" />
     <ClInclude Include="src\leetcode\positions-of-large-groups.h" />
     <ClInclude Include="src\leetcode\power_of_four.h" />
     <ClInclude Include="src\leetcode\power_of_three.h" />
     <ClInclude Include="src\leetcode\power_of_two.h" />
+    <ClInclude Include="src\leetcode\powx-n.h" />
     <ClInclude Include="src\leetcode\prime-number-of-set-bits-in-binary-representation.h" />
     <ClInclude Include="src\leetcode\range_addition_ii.h" />
     <ClInclude Include="src\leetcode\range_sum_query_immutable.h" />
@@ -239,6 +248,7 @@
     <ClInclude Include="src\leetcode\reverse_vowels_of_a_string.h" />
     <ClInclude Include="src\leetcode\reverse_words_in_a_string_iii.h" />
     <ClInclude Include="src\leetcode\roman_to_integer.h" />
+    <ClInclude Include="src\leetcode\rotate-image.h" />
     <ClInclude Include="src\leetcode\rotate-string.h" />
     <ClInclude Include="src\leetcode\rotated-digits.h" />
     <ClInclude Include="src\leetcode\rotate_array.h" />
@@ -250,6 +260,8 @@
     <ClInclude Include="src\leetcode\shortest-distance-to-a-character.h" />
     <ClInclude Include="src\leetcode\shortest_unsorted_continuous_subarray.h" />
     <ClInclude Include="src\leetcode\single_list.h" />
+    <ClInclude Include="src\leetcode\spiral-matrix-ii.h" />
+    <ClInclude Include="src\leetcode\spiral-matrix.h" />
     <ClInclude Include="src\leetcode\sqrt(x).h" />
     <ClInclude Include="src\leetcode\string_compression.h" />
     <ClInclude Include="src\leetcode\student_attendance_record_i.h" />

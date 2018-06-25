@@ -114,10 +114,12 @@
 #include "src/leetcode/multiply-strings.h"
 #include "src/leetcode/rotate-image.h"
 #include "src/leetcode/group-anagrams.h"
+#include "src/leetcode/jump-game.h"
+#include "src/leetcode/spiral-matrix-ii.h"
 
 int main(int argc, char* argv[])
 {
-	GroupAnagrams::test();
+	SpiralMatrixIi::test();
 
 	return 0;
 }
