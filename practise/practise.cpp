@@ -110,10 +110,14 @@
 #include "src/leetcode/swap-nodes-in-pairs.h"
 #include "src/leetcode/divide-two-integers.h"
 #include "src/leetcode/next-permutation.h"
+#include "src/leetcode/combination-sum.h"
+#include "src/leetcode/multiply-strings.h"
+#include "src/leetcode/rotate-image.h"
+#include "src/leetcode/group-anagrams.h"
 
 int main(int argc, char* argv[])
 {
-	NextPermutation::test();
+	GroupAnagrams::test();
 
 	return 0;
 }

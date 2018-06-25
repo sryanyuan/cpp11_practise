@@ -49,7 +49,7 @@ public:
 				midv = nums[mid];
 			}
 			else {
-				if (nums[mid] > nums[0]) {
+				if (nums[mid] >= nums[0]) {
 					midv = INT_MIN;
 				}
 				else {

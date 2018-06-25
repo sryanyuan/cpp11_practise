@@ -74,7 +74,32 @@ public:
 	}
 
 	static bool isValidSudoku(vector<vector<char>>& board) {
-	
+	    int rowf[9] = {0};
+        int colf[9] = {0};
+        int boxf[9] = {0};
+
+        for (int i = 0; i < board.size(); i++) {
+            for (int j = 0; j < board[i].size(); j++) {
+                if (board[i][j] == '.') {
+                    continue;
+                }
+                int val = board[i][j] - '0';
+                int flag = 1 << val;
+                if (rowf[i] & flag) {
+                    return false;
+                }
+                rowf[i] |= flag;
+                if (colf[j] & flag) {
+                    return false;
+                }
+                colf[j] |= flag;
+                if (boxf[i / 3 * 3 + j / 3] & flag) {
+                    return false;
+                }
+                boxf[i / 3 * 3 + j / 3] |= flag;
+            }
+        }
+        return true;
 	}
 };
 
