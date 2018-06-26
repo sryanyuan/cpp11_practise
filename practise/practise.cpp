@@ -116,10 +116,15 @@
 #include "src/leetcode/group-anagrams.h"
 #include "src/leetcode/jump-game.h"
 #include "src/leetcode/spiral-matrix-ii.h"
+#include "src/leetcode/permutation-sequence.h"
+#include "src/leetcode/rotate-list.h"
+#include "src/leetcode/unique-paths.h"
+#include "src/leetcode/search-a-2d-matrix.h"
+#include "src/leetcode/word-search.h"
 
 int main(int argc, char* argv[])
 {
-	SpiralMatrixIi::test();
+	WordSearch::test();
 
 	return 0;
 }
