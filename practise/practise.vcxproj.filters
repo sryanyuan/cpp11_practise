@@ -711,6 +711,21 @@
     <ClInclude Include="src\leetcode\word-search.h">
       <Filter>src\leetcode</Filter>
     </ClInclude>
+    <ClInclude Include="src\leetcode\remove-duplicates-from-sorted-array-ii.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\search-in-rotated-sorted-array-ii.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\remove-duplicates-from-sorted-list-ii.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\partition-list.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\gray-code.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

@@ -46,7 +46,7 @@ public:
         row.push_back('e');
         row.push_back('e');
         board.push_back(std::move(row));
-		auto ret = exist(board, "abcb");
+		auto ret = exist(board, "see");
 	}
 
 	static bool exist(vector<vector<char>>& board, string word) {
@@ -61,12 +61,47 @@ public:
         if (0 == cc) {
             return false;
         }
-        bool *steps = new bool[rc * cc];
-        for (int si = 0; si < rc * cc; si++) {
-            steps[si] = false;
+        unordered_set<int> spos;
+        bool res = false;
+        for (int i = 0; i < rc && !res; i++) {
+            for (int j = 0; j < cc && !res; j++) {
+                dfs(i, j, board, word, 0, spos, res);
+            }
         }
-        
+        return res;
 	}
+
+    static void dfs(int i, int j, vector<vector<char>>& board, string word, int wi, unordered_set<int> &spos, bool &res) {
+        if (res) {
+            return;
+        }
+        static int offsets[] = {-1, 0, 1, 0, 0, -1, 0, 1};
+        int rc = board.size();
+        int cc = board[0].size();
+        if (i >= rc || j >= cc) {
+            return;
+        }
+        if (board[i][j] != word[wi]) {
+            return;
+        }
+        if (wi == word.size() - 1) {
+            res = true;
+            return;
+        }
+        spos.insert(i * cc + j);
+        for (int oi = 0; oi < sizeof(offsets) / sizeof(offsets[0]); oi += 2) {
+            int ni = i + offsets[oi];
+            int nj = j + offsets[oi + 1];
+            if (ni < 0 || ni >= rc || nj < 0 || nj >= cc) {
+                continue;
+            }
+            if (spos.count(ni * cc + nj) != 0) {
+                continue;
+            }
+            dfs(ni, nj, board, word, wi + 1, spos, res);
+        }
+        spos.erase(i * cc + j);
+    }
 };
 
 #endif

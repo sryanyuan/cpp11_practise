@@ -121,10 +121,13 @@
 #include "src/leetcode/unique-paths.h"
 #include "src/leetcode/search-a-2d-matrix.h"
 #include "src/leetcode/word-search.h"
+#include "src/leetcode/remove-duplicates-from-sorted-list-ii.h"
+#include "src/leetcode/partition-list.h"
+#include "src/leetcode/gray-code.h"
 
 int main(int argc, char* argv[])
 {
-	WordSearch::test();
+	GrayCode::test();
 
 	return 0;
 }
