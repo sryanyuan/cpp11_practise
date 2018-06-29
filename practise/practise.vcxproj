@@ -100,6 +100,9 @@
     <ClInclude Include="src\leetcode\base_7.h" />
     <ClInclude Include="src\leetcode\best_time_to_buy_and_sell_stock.h" />
     <ClInclude Include="src\leetcode\best_time_to_buy_and_sell_stock_ii.h" />
+    <ClInclude Include="src\leetcode\binary-tree-inorder-traversal.h" />
+    <ClInclude Include="src\leetcode\binary-tree-level-order-traversal.h" />
+    <ClInclude Include="src\leetcode\binary-tree-zigzag-level-order-traversal.h" />
     <ClInclude Include="src\leetcode\binary_number_with_alternating_bits.h" />
     <ClInclude Include="src\leetcode\binary_tree_level_order_traversal_ii.h" />
     <ClInclude Include="src\leetcode\binary_tree_paths.h" />
@@ -110,11 +113,15 @@
     <ClInclude Include="src\leetcode\combination-sum-ii.h" />
     <ClInclude Include="src\leetcode\combination-sum.h" />
     <ClInclude Include="src\leetcode\combinations.h" />
+    <ClInclude Include="src\leetcode\construct-binary-tree-from-inorder-and-postorder-traversal.h" />
+    <ClInclude Include="src\leetcode\construct-binary-tree-from-preorder-and-inorder-traversal.h" />
     <ClInclude Include="src\leetcode\construct_string_from_binary_tree.h" />
     <ClInclude Include="src\leetcode\construct_the_rectangle.h" />
     <ClInclude Include="src\leetcode\container-with-most-water.h" />
+    <ClInclude Include="src\leetcode\convert-sorted-list-to-binary-search-tree.h" />
     <ClInclude Include="src\leetcode\convert_bst_to_greater_tree.h" />
     <ClInclude Include="src\leetcode\count_binary_substrings.h" />
+    <ClInclude Include="src\leetcode\decode-ways.h" />
     <ClInclude Include="src\leetcode\degree_of_an_array.h" />
     <ClInclude Include="src\leetcode\detect_capital.h" />
     <ClInclude Include="src\leetcode\diameter_of_binary_tree.h" />
@@ -191,6 +198,8 @@
     <ClInclude Include="src\leetcode\repeated_string_match.h" />
     <ClInclude Include="src\leetcode\repeated_substring_pattern.h" />
     <ClInclude Include="src\leetcode\reshape_the_matrix.h" />
+    <ClInclude Include="src\leetcode\restore-ip-addresses.h" />
+    <ClInclude Include="src\leetcode\reverse-linked-list-ii.h" />
     <ClInclude Include="src\leetcode\reverse_string_ii.h" />
     <ClInclude Include="src\leetcode\reverse_words_in_a_string_iii.h" />
     <ClInclude Include="src\leetcode\rotate-image.h" />
@@ -212,6 +221,7 @@
     <ClInclude Include="src\leetcode\string_compression.h" />
     <ClInclude Include="src\leetcode\student_attendance_record_i.h" />
     <ClInclude Include="src\leetcode\subdomain-visit-count.h" />
+    <ClInclude Include="src\leetcode\subsets-ii.h" />
     <ClInclude Include="src\leetcode\subsets.h" />
     <ClInclude Include="src\leetcode\subtree_of_another_tree.h" />
     <ClInclude Include="src\leetcode\sum_of_square_numbers.h" />
@@ -219,10 +229,12 @@
     <ClInclude Include="src\leetcode\toeplitz-matrix.h" />
     <ClInclude Include="src\leetcode\trim_a_binary_search_tree.h" />
     <ClInclude Include="src\leetcode\two_sum_iv_input_is_bst.h" />
+    <ClInclude Include="src\leetcode\unique-binary-search-trees-ii.h" />
     <ClInclude Include="src\leetcode\unique-morse-code-words.h" />
     <ClInclude Include="src\leetcode\unique-paths-ii.h" />
     <ClInclude Include="src\leetcode\unique-paths.h" />
     <ClInclude Include="src\leetcode\valid-sudoku.h" />
+    <ClInclude Include="src\leetcode\validate-binary-search-tree.h" />
     <ClInclude Include="src\leetcode\valid_palindrome_ii.h" />
     <ClInclude Include="src\leetcode\word-search.h" />
     <ClInclude Include="src\leetcode\_common_all.h" />

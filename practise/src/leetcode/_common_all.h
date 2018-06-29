@@ -16,9 +16,10 @@ using std::stack;
 #include <unordered_set>
 using std::unordered_set;
 #include <sstream>
+#include <stdlib.h>
 
 #ifndef max
-#define max(a,b) (((a) > (b)) ? (a) : (b))
+//#define max(a,b) (((a) > (b)) ? (a) : (b))
 #endif
 
 #endif

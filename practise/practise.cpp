@@ -124,10 +124,17 @@
 #include "src/leetcode/remove-duplicates-from-sorted-list-ii.h"
 #include "src/leetcode/partition-list.h"
 #include "src/leetcode/gray-code.h"
+#include "src/leetcode/subsets-ii.h"
+#include "src/leetcode/decode-ways.h"
+#include "src/leetcode/reverse-linked-list-ii.h"
+#include "src/leetcode/restore-ip-addresses.h"
+#include "src/leetcode/construct-binary-tree-from-preorder-and-inorder-traversal.h"
+#include "src/leetcode/construct-binary-tree-from-inorder-and-postorder-traversal.h"
+#include "src/leetcode/convert-sorted-list-to-binary-search-tree.h"
 
 int main(int argc, char* argv[])
 {
-	GrayCode::test();
+	ConvertSortedListToBinarySearchTree::test();
 
 	return 0;
 }
