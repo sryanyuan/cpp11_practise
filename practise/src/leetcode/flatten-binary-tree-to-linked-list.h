@@ -38,7 +38,8 @@ The flattened tree should look like:
 class FlattenBinaryTreeToLinkedList : public TreeNodeCls {
 public:
 	static void test() {
-		
+        auto t = stringToTreeNode("[1,2,5,3,4,null,6]");
+		flatten(t);
 	}
 
 	static void flatten(TreeNode* root) {
@@ -50,9 +51,15 @@ public:
             return;
         }
         walk(node->left);
+        walk(node->right);
         TreeNode *prev = node->right;
         node->right = node->left;
         node->left = nullptr;
+        TreeNode *tail = node;
+        while (nullptr != tail->right) {
+            tail = tail->right;
+        }
+        tail->right = prev;
     }
 };
 

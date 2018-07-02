@@ -29,6 +29,53 @@ public:
         }).base(), input.end());
     }
 
+    template <class T>
+    static T* stringToTreeNodeT(string input) {
+        trimLeftTrailingSpaces(input);
+        trimRightTrailingSpaces(input);
+        input = input.substr(1, input.length() - 2);
+        if (!input.size()) {
+            return nullptr;
+        }
+
+        string item;
+        stringstream ss;
+        ss.str(input);
+
+        getline(ss, item, ',');
+        T* root = new T(stoi(item));
+        queue<T*> nodeQueue;
+        nodeQueue.push(root);
+
+        while (true) {
+            T* node = nodeQueue.front();
+            nodeQueue.pop();
+
+            if (!getline(ss, item, ',')) {
+                break;
+            }
+
+            trimLeftTrailingSpaces(item);
+            if (item != "null") {
+                int leftNumber = stoi(item);
+                node->left = new T(leftNumber);
+                nodeQueue.push(node->left);
+            }
+
+            if (!getline(ss, item, ',')) {
+                break;
+            }
+
+            trimLeftTrailingSpaces(item);
+            if (item != "null") {
+                int rightNumber = stoi(item);
+                node->right = new T(rightNumber);
+                nodeQueue.push(node->right);
+            }
+        }
+        return root;
+    }
+
     static TreeNodeCls::TreeNode* stringToTreeNode(string input) {
         trimLeftTrailingSpaces(input);
         trimRightTrailingSpaces(input);

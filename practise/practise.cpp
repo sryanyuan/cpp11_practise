@@ -1,5 +1,8 @@
 // practise.cpp : 定义控制台应用程序的入口点。
 //
+#pragma warning(disable:4018)
+#pragma warning(disable:4244)
+#pragma warning(disable:4996)
 
 #include "stdafx.h"
 #include "src/weekcallback/weakcallback.h"
@@ -131,10 +134,18 @@
 #include "src/leetcode/construct-binary-tree-from-preorder-and-inorder-traversal.h"
 #include "src/leetcode/construct-binary-tree-from-inorder-and-postorder-traversal.h"
 #include "src/leetcode/convert-sorted-list-to-binary-search-tree.h"
+#include "src/leetcode/flatten-binary-tree-to-linked-list.h"
+#include "src/leetcode/populating-next-right-pointers-in-each-node-ii.h"
+#include "src/leetcode/triangle.h"
+#include "src/leetcode/word-ladder.h"
+#include "src/leetcode/sum-root-to-leaf-numbers.h"
+#include "src/leetcode/surrounded-regions.h"
+#include "src/leetcode/palindrome-partitioning.h"
+#include "src/leetcode/gas-station.h"
 
 int main(int argc, char* argv[])
 {
-	ConvertSortedListToBinarySearchTree::test();
+	GasStation::test();
 
 	return 0;
 }
