@@ -39,22 +39,30 @@ public:
         if (fast == slow) {
             return;
         }
+		bool even = false;
         if (fast->next != nullptr) {
             prevs.push(slow);
-        }
-        slow = slow->next;
-        bool first = true;
+			slow = slow->next;
+			even = true;
+		}
+		else {
+			ListNode *next = slow->next;
+			slow->next = nullptr;
+			slow = next;
+		}
         while (!prevs.empty()) {
             ListNode *cur = prevs.top();
             prevs.pop();
             ListNode *next = slow->next;
             ListNode *pnext = cur->next;
             cur->next = slow;
-            if (first) {
-                slow->next = nullptr;
-            } else {
-                slow->next = pnext;
-            }
+			if (even) {
+				slow->next = nullptr;
+				even = false;
+			}
+			else {
+				slow->next = pnext;
+			}
             slow = next;
         }
     }
