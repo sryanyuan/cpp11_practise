@@ -142,10 +142,12 @@
 #include "src/leetcode/surrounded-regions.h"
 #include "src/leetcode/palindrome-partitioning.h"
 #include "src/leetcode/gas-station.h"
+#include "src/leetcode/copy-list-with-random-pointer.h"
+#include "src/leetcode/reorder-list.h"
 
 int main(int argc, char* argv[])
 {
-	GasStation::test();
+	ReorderList::test();
 
 	return 0;
 }

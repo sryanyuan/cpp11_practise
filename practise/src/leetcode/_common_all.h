@@ -17,6 +17,8 @@ using std::stack;
 using std::unordered_set;
 #include <sstream>
 #include <stdlib.h>
+#include <bitset>
+using std::bitset;
 
 #ifndef max
 //#define max(a,b) (((a) > (b)) ? (a) : (b))

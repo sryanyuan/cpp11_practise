@@ -69,31 +69,28 @@ public:
 	}
 
 	static int canCompleteCircuit(vector<int>& gas, vector<int>& cost) {
-		int cnt = 0;
-        int gasCnt = 0;
-        int start = 0;
-        for (int i = start; i < start + gas.size(); i++) {
-            int index = (start + cnt) % gas.size();
-            if (cnt == 0) {
-                gasCnt += gas[index];
-            }
-            gasCnt -= cost[index];
-            if (gasCnt < 0) {
-                cnt = 0;
-                gasCnt = 0;
-                start++;
-                if (start >= gas.size()) {
+        int next = -1;
+        int sum = 0;
+        for (int i = 0; i < gas.size(); i++) {
+            int j = 0;
+            for (j; j <= gas.size(); j++) {
+                int curi = (i + j) % gas.size();
+                int cur = gas[curi] - cost[curi];
+                sum += cur;
+                if (j != 0 && cur >= 0) {
+                    next = j;
+                }
+                if (sum < 0) {
+                    sum = 0;
+                    if (next > i) {
+                        i = next - 1;
+                        next = -1;
+                    }
                     break;
                 }
-                i--;
-                continue;
             }
-            cnt++;
-            if (cnt == gas.size()) {
-                return start;
-            }
-            if (cnt != 1) {
-                gasCnt += gas[index];
+            if (j > gas.size()) {
+                return i;
             }
         }
         return -1;

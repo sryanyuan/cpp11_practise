@@ -120,6 +120,7 @@
     <ClInclude Include="src\leetcode\container-with-most-water.h" />
     <ClInclude Include="src\leetcode\convert-sorted-list-to-binary-search-tree.h" />
     <ClInclude Include="src\leetcode\convert_bst_to_greater_tree.h" />
+    <ClInclude Include="src\leetcode\copy-list-with-random-pointer.h" />
     <ClInclude Include="src\leetcode\count_binary_substrings.h" />
     <ClInclude Include="src\leetcode\decode-ways.h" />
     <ClInclude Include="src\leetcode\degree_of_an_array.h" />
@@ -156,6 +157,7 @@
     <ClInclude Include="src\leetcode\letter-case-permutation.h" />
     <ClInclude Include="src\leetcode\letter-combinations-of-a-phone-number.h" />
     <ClInclude Include="src\leetcode\license_key_formatting.h" />
+    <ClInclude Include="src\leetcode\linked-list-cycle-ii.h" />
     <ClInclude Include="src\leetcode\longest-word-in-dictionary.h" />
     <ClInclude Include="src\leetcode\longest_continuous_increasing_subsequence.h" />
     <ClInclude Include="src\leetcode\longest_harmonious_subsequence.h" />
@@ -201,6 +203,7 @@
     <ClInclude Include="src\leetcode\remove-duplicates-from-sorted-array-ii.h" />
     <ClInclude Include="src\leetcode\remove-duplicates-from-sorted-list-ii.h" />
     <ClInclude Include="src\leetcode\remove-nth-node-from-end-of-list.h" />
+    <ClInclude Include="src\leetcode\reorder-list.h" />
     <ClInclude Include="src\leetcode\repeated_string_match.h" />
     <ClInclude Include="src\leetcode\repeated_substring_pattern.h" />
     <ClInclude Include="src\leetcode\reshape_the_matrix.h" />
@@ -222,6 +225,7 @@
     <ClInclude Include="src\leetcode\shortest-distance-to-a-character.h" />
     <ClInclude Include="src\leetcode\shortest_unsorted_continuous_subarray.h" />
     <ClInclude Include="src\leetcode\simplify-path.h" />
+    <ClInclude Include="src\leetcode\single-number-ii.h" />
     <ClInclude Include="src\leetcode\sort-colors.h" />
     <ClInclude Include="src\leetcode\spiral-matrix.h" />
     <ClInclude Include="src\leetcode\string_compression.h" />
@@ -245,6 +249,7 @@
     <ClInclude Include="src\leetcode\valid-sudoku.h" />
     <ClInclude Include="src\leetcode\validate-binary-search-tree.h" />
     <ClInclude Include="src\leetcode\valid_palindrome_ii.h" />
+    <ClInclude Include="src\leetcode\word-break.h" />
     <ClInclude Include="src\leetcode\word-ladder.h" />
     <ClInclude Include="src\leetcode\word-search.h" />
     <ClInclude Include="src\leetcode\_common_all.h" />
