@@ -144,10 +144,12 @@
 #include "src/leetcode/gas-station.h"
 #include "src/leetcode/copy-list-with-random-pointer.h"
 #include "src/leetcode/reorder-list.h"
+#include "src/leetcode/insertion-sort-list.h"
+#include "src/leetcode/reverse-words-in-a-string.h"
 
 int main(int argc, char* argv[])
 {
-	ReorderList::test();
+	ReverseWordsInAString::test();
 
 	return 0;
 }

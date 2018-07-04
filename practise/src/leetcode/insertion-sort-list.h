@@ -46,22 +46,42 @@ Output: -1->0->3->4->5
 class InsertionSortList : public SingleLinkedListCls {
 public:
 	static void test() {
-		
+		auto res = insertionSortList(stringToListNode("[4,2,1,3]"));
 	}
 
 	static ListNode* insertionSortList(ListNode* head) {
 		if (nullptr == head) {
 			return head;
 		}
-		ListNode *node = head;
+		ListNode *node = head->next;
+        ListNode *tail = head;
+        int maxStep = 1;
 		while (node != nullptr) {
-			ListNode *cur = head;
-			while (cur != node) {
-				if (cur->val >= node->val) {
-
-				}
-			}
+			ListNode *next = node->next;
+            ListNode *prev = nullptr;
+            ListNode *cur = head;
+            int i = 0;
+            for (i; i < maxStep; i++) {
+                if (node->val < cur->val) {
+                    tail->next = node->next;
+                    node->next = cur;
+                    if (nullptr == prev) {
+                        head = node;
+                    } else {
+                        prev->next = node;
+                    }
+                    break;
+                }
+                prev = cur;
+                cur = cur->next;
+            }
+            if (i >= maxStep) {
+                tail = tail->next;
+            }
+            ++maxStep;
+            node = next;
 		}
+        return head;
 	}
 };
 
