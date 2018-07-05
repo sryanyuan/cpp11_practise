@@ -114,6 +114,7 @@
     <ClInclude Include="src\leetcode\combination-sum-ii.h" />
     <ClInclude Include="src\leetcode\combination-sum.h" />
     <ClInclude Include="src\leetcode\combinations.h" />
+    <ClInclude Include="src\leetcode\compare-version-numbers.h" />
     <ClInclude Include="src\leetcode\construct-binary-tree-from-inorder-and-postorder-traversal.h" />
     <ClInclude Include="src\leetcode\construct-binary-tree-from-preorder-and-inorder-traversal.h" />
     <ClInclude Include="src\leetcode\construct_string_from_binary_tree.h" />
@@ -131,6 +132,8 @@
     <ClInclude Include="src\leetcode\divide-two-integers.h" />
     <ClInclude Include="src\leetcode\employee_importance.h" />
     <ClInclude Include="src\leetcode\evaluate-reverse-polish-notation.h" />
+    <ClInclude Include="src\leetcode\find-minimum-in-rotated-sorted-array.h" />
+    <ClInclude Include="src\leetcode\find-peak-element.h" />
     <ClInclude Include="src\leetcode\find-pivot-index.h" />
     <ClInclude Include="src\leetcode\find-smallest-letter-greater-than-target.h" />
     <ClInclude Include="src\leetcode\find_all_anagrams_in_a_string.h" />
@@ -140,6 +143,7 @@
     <ClInclude Include="src\leetcode\flatten-binary-tree-to-linked-list.h" />
     <ClInclude Include="src\leetcode\flipping-an-image.h" />
     <ClInclude Include="src\leetcode\flood-fill.h" />
+    <ClInclude Include="src\leetcode\fraction-to-recurring-decimal.h" />
     <ClInclude Include="src\leetcode\gas-station.h" />
     <ClInclude Include="src\leetcode\generate-parentheses.h" />
     <ClInclude Include="src\leetcode\goat-latin.h" />
@@ -169,6 +173,7 @@
     <ClInclude Include="src\leetcode\longest_univalue_path.h" />
     <ClInclude Include="src\leetcode\magic-squares-in-grid.h" />
     <ClInclude Include="src\leetcode\maximize-distance-to-closest-person.h" />
+    <ClInclude Include="src\leetcode\maximum-product-subarray.h" />
     <ClInclude Include="src\leetcode\maximum_average_subarray_i.h" />
     <ClInclude Include="src\leetcode\maximum_product_of_tree_numbers.h" />
     <ClInclude Include="src\leetcode\max_area_of_island.h" />

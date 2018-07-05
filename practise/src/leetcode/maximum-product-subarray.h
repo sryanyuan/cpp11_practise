@@ -31,8 +31,50 @@ public:
 	}
 
 	static int maxProduct(vector<int>& nums) {
-		
+		if (nums.empty()) {
+            return 0;
+        }
+        vector<int> minVals(nums.size(), 0);
+        vector<int> maxVals(nums.size(), 0);
+        minVals[0] = nums[0];
+        maxVals[0] = nums[0];
+        int maxVal = nums[0];
+        for (int i = 1; i < nums.size(); i++) {
+            int v1 = nums[i];
+            int v2 = minVals[i - 1] * v1;
+            int v3 = maxVals[i - 1] * v1;
+            minVals[i] = std::min(v1, v2);
+            minVals[i] = std::min(minVals[i], v3);
+            maxVals[i] = std::max(v1, v2);
+            maxVals[i] = std::max(maxVals[i], v3);
+            if (maxVals[i] > maxVal) {
+                maxVal = maxVals[i];
+            }
+        }
+        return maxVal;
 	}
+
+    static int maxProduct2Vals(vector<int>& nums) {
+        if (nums.empty()) {
+            return 0;
+        }
+        int prevMin = nums[0];
+        int prevMax = nums[0];
+        int maxVal = nums[0];
+        for (int i = 1; i < nums.size(); i++) {
+            int v1 = nums[i];
+            int v2 = prevMin * v1;
+            int v3 = prevMax * v1;
+            prevMin = std::min(v1, v2);
+            prevMin = std::min(prevMin, v3);
+            prevMax = std::max(v1, v2);
+            prevMax = std::max(prevMax, v3);
+            if (prevMax > maxVal) {
+                maxVal = prevMax;
+            }
+        }
+        return maxVal;
+    }
 };
 
 #endif

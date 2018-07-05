@@ -146,10 +146,13 @@
 #include "src/leetcode/reorder-list.h"
 #include "src/leetcode/insertion-sort-list.h"
 #include "src/leetcode/reverse-words-in-a-string.h"
+#include "src/leetcode/find-minimum-in-rotated-sorted-array.h"
+#include "src/leetcode/compare-version-numbers.h"
+#include "src/leetcode/fraction-to-recurring-decimal.h"
 
 int main(int argc, char* argv[])
 {
-	ReverseWordsInAString::test();
+	FractionToRecurringDecimal::test();
 
 	return 0;
 }
