@@ -32,29 +32,28 @@ public:
 
 	static string largestNumber(vector<int>& nums) {
 		vector<string> nstrs;
+        bool allZero = true;
         for (auto v : nums) {
-            nstrs.push_back(std::to_string(v));
-        }
-        int added = 0;
-        while (added < nums.size()) {
-            vector<int> candidates;
-            std::sort(nstrs.begin(), nstrs.end());
-            char prevChar = 0;
-            int index = 0;
-            for (auto &str : nstrs) {
-                if (str.empty()) {
-                    index++;
-                    continue;
-                }
-                if (0 == prevChar) {
-                    prevChar = str[0];
-                } else if (str[0] != prevChar) {
-                    break;
-                }
-                candidates.push_back(index);
-                index++;
+            if (v != 0) {
+                allZero = false;
             }
+            auto ns = std::to_string(v);
+            nstrs.push_back(std::move(ns));
         }
+        if (allZero) {
+            return "0";
+        }
+        string res;
+        std::sort(nstrs.rbegin(), nstrs.rend(), [](string &a, string &b) -> bool {
+            if (a + b < b + a) {
+                return true;
+            }
+            return false;
+        });
+        for (auto &v : nstrs) {
+            res += v;
+        }
+        return res;
 	}
 };
 

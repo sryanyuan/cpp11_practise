@@ -843,6 +843,39 @@
     <ClInclude Include="src\leetcode\fraction-to-recurring-decimal.h">
       <Filter>src\leetcode</Filter>
     </ClInclude>
+    <ClInclude Include="src\leetcode\binary-search-tree-iterator.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\largest-number.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\repeated-dna-sequences.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\binary-tree-right-side-view.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\number-of-islands.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\bitwise-and-of-numbers-range.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\course-schedule.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\implement-trie-prefix-tree.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\minimum-size-subarray-sum.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\add-and-search-word-data-structure-design.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\house-robber-ii.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

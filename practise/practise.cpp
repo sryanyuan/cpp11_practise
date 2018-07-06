@@ -149,10 +149,16 @@
 #include "src/leetcode/find-minimum-in-rotated-sorted-array.h"
 #include "src/leetcode/compare-version-numbers.h"
 #include "src/leetcode/fraction-to-recurring-decimal.h"
+#include "src/leetcode/binary-tree-right-side-view.h"
+#include "src/leetcode/number-of-islands.h"
+#include "src/leetcode/implement-trie-prefix-tree.h"
+#include "src/leetcode/minimum-size-subarray-sum.h"
+#include "src/leetcode/add-and-search-word-data-structure-design.h"
+#include "src/leetcode/house-robber-ii.h"
 
 int main(int argc, char* argv[])
 {
-	FractionToRecurringDecimal::test();
+	HouseRobberIi::test();
 
 	return 0;
 }
