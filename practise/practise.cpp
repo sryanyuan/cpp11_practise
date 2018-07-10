@@ -155,10 +155,13 @@
 #include "src/leetcode/minimum-size-subarray-sum.h"
 #include "src/leetcode/add-and-search-word-data-structure-design.h"
 #include "src/leetcode/house-robber-ii.h"
+#include "src/leetcode/count-complete-tree-nodes.h"
+#include "src/leetcode/basic-calculator-ii.h"
+#include "src/leetcode/summary-ranges.h"
 
 int main(int argc, char* argv[])
 {
-	HouseRobberIi::test();
+	SummaryRanges::test();
 
 	return 0;
 }

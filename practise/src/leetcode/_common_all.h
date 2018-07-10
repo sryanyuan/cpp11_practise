@@ -20,6 +20,7 @@ using std::unordered_set;
 #include <bitset>
 using std::bitset;
 using std::pair;
+#include <functional>
 
 #ifndef max
 //#define max(a,b) (((a) > (b)) ? (a) : (b))
