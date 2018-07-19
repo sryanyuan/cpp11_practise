@@ -158,10 +158,15 @@
 #include "src/leetcode/count-complete-tree-nodes.h"
 #include "src/leetcode/basic-calculator-ii.h"
 #include "src/leetcode/summary-ranges.h"
+#include "src/leetcode/different-ways-to-add-parentheses.h"
+#include "src/leetcode/find-the-duplicate-number.h"
+#include "src/leetcode/range-sum-query-2d-immutable.h"
+#include "src/leetcode/range-sum-query-mutable.h"
+#include "src/leetcode/maximum-product-of-word-lengths.h"
 
 int main(int argc, char* argv[])
 {
-	SummaryRanges::test();
+	MaximumProductOfWordLengths::test();
 
 	return 0;
 }

@@ -100,6 +100,7 @@
     <ClInclude Include="src\leetcode\baseball_game.h" />
     <ClInclude Include="src\leetcode\base_7.h" />
     <ClInclude Include="src\leetcode\basic-calculator-ii.h" />
+    <ClInclude Include="src\leetcode\best-time-to-buy-and-sell-stock-with-cooldown.h" />
     <ClInclude Include="src\leetcode\best_time_to_buy_and_sell_stock.h" />
     <ClInclude Include="src\leetcode\best_time_to_buy_and_sell_stock_ii.h" />
     <ClInclude Include="src\leetcode\binary-search-tree-iterator.h" />
@@ -114,6 +115,7 @@
     <ClInclude Include="src\leetcode\binary_tree_tilt.h" />
     <ClInclude Include="src\leetcode\binary_watch.h" />
     <ClInclude Include="src\leetcode\bitwise-and-of-numbers-range.h" />
+    <ClInclude Include="src\leetcode\bulls-and-cows.h" />
     <ClInclude Include="src\leetcode\can_place_flowers.h" />
     <ClInclude Include="src\leetcode\climbing_stairs.h" />
     <ClInclude Include="src\leetcode\combination-sum-ii.h" />
@@ -136,6 +138,7 @@
     <ClInclude Include="src\leetcode\degree_of_an_array.h" />
     <ClInclude Include="src\leetcode\detect_capital.h" />
     <ClInclude Include="src\leetcode\diameter_of_binary_tree.h" />
+    <ClInclude Include="src\leetcode\different-ways-to-add-parentheses.h" />
     <ClInclude Include="src\leetcode\distribute_candies.h" />
     <ClInclude Include="src\leetcode\divide-two-integers.h" />
     <ClInclude Include="src\leetcode\employee_importance.h" />
@@ -144,6 +147,7 @@
     <ClInclude Include="src\leetcode\find-peak-element.h" />
     <ClInclude Include="src\leetcode\find-pivot-index.h" />
     <ClInclude Include="src\leetcode\find-smallest-letter-greater-than-target.h" />
+    <ClInclude Include="src\leetcode\find-the-duplicate-number.h" />
     <ClInclude Include="src\leetcode\find_all_anagrams_in_a_string.h" />
     <ClInclude Include="src\leetcode\find_all_duplicates_in_an_array.h" />
     <ClInclude Include="src\leetcode\find_all_numbers_disappeared_in_an_array.h" />
@@ -157,6 +161,8 @@
     <ClInclude Include="src\leetcode\goat-latin.h" />
     <ClInclude Include="src\leetcode\gray-code.h" />
     <ClInclude Include="src\leetcode\group-anagrams.h" />
+    <ClInclude Include="src\leetcode\h-index-ii.h" />
+    <ClInclude Include="src\leetcode\h-index.h" />
     <ClInclude Include="src\leetcode\hamming_distance.h" />
     <ClInclude Include="src\leetcode\heaters.h" />
     <ClInclude Include="src\leetcode\house-robber-ii.h" />
@@ -179,6 +185,7 @@
     <ClInclude Include="src\leetcode\letter-combinations-of-a-phone-number.h" />
     <ClInclude Include="src\leetcode\license_key_formatting.h" />
     <ClInclude Include="src\leetcode\linked-list-cycle-ii.h" />
+    <ClInclude Include="src\leetcode\longest-increasing-subsequence.h" />
     <ClInclude Include="src\leetcode\longest-word-in-dictionary.h" />
     <ClInclude Include="src\leetcode\longest_continuous_increasing_subsequence.h" />
     <ClInclude Include="src\leetcode\longest_harmonious_subsequence.h" />
@@ -189,6 +196,7 @@
     <ClInclude Include="src\leetcode\majority-element-ii.h" />
     <ClInclude Include="src\leetcode\maximal-square.h" />
     <ClInclude Include="src\leetcode\maximize-distance-to-closest-person.h" />
+    <ClInclude Include="src\leetcode\maximum-product-of-word-lengths.h" />
     <ClInclude Include="src\leetcode\maximum-product-subarray.h" />
     <ClInclude Include="src\leetcode\maximum_average_subarray_i.h" />
     <ClInclude Include="src\leetcode\maximum_product_of_tree_numbers.h" />
@@ -216,6 +224,7 @@
     <ClInclude Include="src\leetcode\partition-list.h" />
     <ClInclude Include="src\leetcode\path-sum-ii.h" />
     <ClInclude Include="src\leetcode\peak-index-in-a-mountain-array.h" />
+    <ClInclude Include="src\leetcode\perfect-squares.h" />
     <ClInclude Include="src\leetcode\perfect_number.h" />
     <ClInclude Include="src\leetcode\permutation-sequence.h" />
     <ClInclude Include="src\leetcode\permutations-ii.h" />
@@ -226,6 +235,8 @@
     <ClInclude Include="src\leetcode\powx-n.h" />
     <ClInclude Include="src\leetcode\prime-number-of-set-bits-in-binary-representation.h" />
     <ClInclude Include="src\leetcode\product-of-array-except-self.h" />
+    <ClInclude Include="src\leetcode\range-sum-query-2d-immutable.h" />
+    <ClInclude Include="src\leetcode\range-sum-query-mutable.h" />
     <ClInclude Include="src\leetcode\range_addition_ii.h" />
     <ClInclude Include="src\leetcode\rectangle-area.h" />
     <ClInclude Include="src\leetcode\rectangle-overlap.h" />
@@ -259,6 +270,7 @@
     <ClInclude Include="src\leetcode\shortest_unsorted_continuous_subarray.h" />
     <ClInclude Include="src\leetcode\simplify-path.h" />
     <ClInclude Include="src\leetcode\single-number-ii.h" />
+    <ClInclude Include="src\leetcode\single-number-iii.h" />
     <ClInclude Include="src\leetcode\sort-colors.h" />
     <ClInclude Include="src\leetcode\spiral-matrix-ii.h" />
     <ClInclude Include="src\leetcode\spiral-matrix.h" />
