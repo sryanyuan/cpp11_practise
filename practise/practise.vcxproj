@@ -115,9 +115,11 @@
     <ClInclude Include="src\leetcode\binary_tree_tilt.h" />
     <ClInclude Include="src\leetcode\binary_watch.h" />
     <ClInclude Include="src\leetcode\bitwise-and-of-numbers-range.h" />
+    <ClInclude Include="src\leetcode\bulb-switcher.h" />
     <ClInclude Include="src\leetcode\bulls-and-cows.h" />
     <ClInclude Include="src\leetcode\can_place_flowers.h" />
     <ClInclude Include="src\leetcode\climbing_stairs.h" />
+    <ClInclude Include="src\leetcode\coin-change.h" />
     <ClInclude Include="src\leetcode\combination-sum-ii.h" />
     <ClInclude Include="src\leetcode\combination-sum-iii.h" />
     <ClInclude Include="src\leetcode\combination-sum.h" />
@@ -166,8 +168,10 @@
     <ClInclude Include="src\leetcode\hamming_distance.h" />
     <ClInclude Include="src\leetcode\heaters.h" />
     <ClInclude Include="src\leetcode\house-robber-ii.h" />
+    <ClInclude Include="src\leetcode\house-robber-iii.h" />
     <ClInclude Include="src\leetcode\image_smoother.h" />
     <ClInclude Include="src\leetcode\implement-trie-prefix-tree.h" />
+    <ClInclude Include="src\leetcode\increasing-triplet-subsequence.h" />
     <ClInclude Include="src\leetcode\insertion-sort-list.h" />
     <ClInclude Include="src\leetcode\integer-to-roman.h" />
     <ClInclude Include="src\leetcode\island_perimeter.h" />
@@ -220,6 +224,7 @@
     <ClInclude Include="src\leetcode\number-of-lines-to-write-string.h" />
     <ClInclude Include="src\leetcode\number_complement.h" />
     <ClInclude Include="src\leetcode\number_of_boomerangs.h" />
+    <ClInclude Include="src\leetcode\odd-even-linked-list.h" />
     <ClInclude Include="src\leetcode\palindrome-partitioning.h" />
     <ClInclude Include="src\leetcode\partition-list.h" />
     <ClInclude Include="src\leetcode\path-sum-ii.h" />
@@ -238,6 +243,7 @@
     <ClInclude Include="src\leetcode\range-sum-query-2d-immutable.h" />
     <ClInclude Include="src\leetcode\range-sum-query-mutable.h" />
     <ClInclude Include="src\leetcode\range_addition_ii.h" />
+    <ClInclude Include="src\leetcode\reconstruct-itinerary.h" />
     <ClInclude Include="src\leetcode\rectangle-area.h" />
     <ClInclude Include="src\leetcode\rectangle-overlap.h" />
     <ClInclude Include="src\leetcode\relative_ranks.h" />
@@ -296,6 +302,8 @@
     <ClInclude Include="src\leetcode\valid-sudoku.h" />
     <ClInclude Include="src\leetcode\validate-binary-search-tree.h" />
     <ClInclude Include="src\leetcode\valid_palindrome_ii.h" />
+    <ClInclude Include="src\leetcode\verify-preorder-serialization-of-a-binary-tree.h" />
+    <ClInclude Include="src\leetcode\wiggle-sort-ii.h" />
     <ClInclude Include="src\leetcode\word-break.h" />
     <ClInclude Include="src\leetcode\word-ladder.h" />
     <ClInclude Include="src\leetcode\word-search.h" />

@@ -163,10 +163,14 @@
 #include "src/leetcode/range-sum-query-2d-immutable.h"
 #include "src/leetcode/range-sum-query-mutable.h"
 #include "src/leetcode/maximum-product-of-word-lengths.h"
+#include "src/leetcode/odd-even-linked-list.h"
+#include "src/leetcode/coin-change.h"
+#include "src/leetcode/verify-preorder-serialization-of-a-binary-tree.h"
+#include "src/leetcode/house-robber-iii.h"
 
 int main(int argc, char* argv[])
 {
-	MaximumProductOfWordLengths::test();
+	HouseRobberIii::test();
 
 	return 0;
 }
