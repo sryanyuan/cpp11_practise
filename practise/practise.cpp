@@ -167,10 +167,11 @@
 #include "src/leetcode/coin-change.h"
 #include "src/leetcode/verify-preorder-serialization-of-a-binary-tree.h"
 #include "src/leetcode/house-robber-iii.h"
+#include "src/leetcode/split-array-into-consecutive-subsequences.h"
 
 int main(int argc, char* argv[])
 {
-	HouseRobberIii::test();
+	SplitArrayIntoConsecutiveSubsequences::test();
 
 	return 0;
 }

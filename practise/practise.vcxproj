@@ -134,6 +134,7 @@
     <ClInclude Include="src\leetcode\convert_bst_to_greater_tree.h" />
     <ClInclude Include="src\leetcode\copy-list-with-random-pointer.h" />
     <ClInclude Include="src\leetcode\count-complete-tree-nodes.h" />
+    <ClInclude Include="src\leetcode\counting-bits.h" />
     <ClInclude Include="src\leetcode\count_binary_substrings.h" />
     <ClInclude Include="src\leetcode\course-schedule.h" />
     <ClInclude Include="src\leetcode\decode-ways.h" />
@@ -280,6 +281,7 @@
     <ClInclude Include="src\leetcode\sort-colors.h" />
     <ClInclude Include="src\leetcode\spiral-matrix-ii.h" />
     <ClInclude Include="src\leetcode\spiral-matrix.h" />
+    <ClInclude Include="src\leetcode\split-array-into-consecutive-subsequences.h" />
     <ClInclude Include="src\leetcode\string_compression.h" />
     <ClInclude Include="src\leetcode\student_attendance_record_i.h" />
     <ClInclude Include="src\leetcode\subdomain-visit-count.h" />
