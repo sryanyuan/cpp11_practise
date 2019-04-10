@@ -168,10 +168,14 @@
 #include "src/leetcode/verify-preorder-serialization-of-a-binary-tree.h"
 #include "src/leetcode/house-robber-iii.h"
 #include "src/leetcode/split-array-into-consecutive-subsequences.h"
+#include "src/leetcode/unique-binary-search-trees-ii.h"
+#include "src/leetcode/unique-binary-search-trees.h"
+#include "src/leetcode/sort_list.h"
+#include "src/leetcode/337.house-robber-iii.h"
 
 int main(int argc, char* argv[])
 {
-	SplitArrayIntoConsecutiveSubsequences::test();
+	HouseRobberIII337::test();
 
 	return 0;
 }

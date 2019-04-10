@@ -156,6 +156,7 @@
     <ClInclude Include="src\leetcode\find_all_numbers_disappeared_in_an_array.h" />
     <ClInclude Include="src\leetcode\find_mode_in_binary_search_tree.h" />
     <ClInclude Include="src\leetcode\flatten-binary-tree-to-linked-list.h" />
+    <ClInclude Include="src\leetcode\flatten_nested_list_iterator.h" />
     <ClInclude Include="src\leetcode\flipping-an-image.h" />
     <ClInclude Include="src\leetcode\flood-fill.h" />
     <ClInclude Include="src\leetcode\fraction-to-recurring-decimal.h" />
@@ -279,6 +280,7 @@
     <ClInclude Include="src\leetcode\single-number-ii.h" />
     <ClInclude Include="src\leetcode\single-number-iii.h" />
     <ClInclude Include="src\leetcode\sort-colors.h" />
+    <ClInclude Include="src\leetcode\sort_list.h" />
     <ClInclude Include="src\leetcode\spiral-matrix-ii.h" />
     <ClInclude Include="src\leetcode\spiral-matrix.h" />
     <ClInclude Include="src\leetcode\split-array-into-consecutive-subsequences.h" />
@@ -298,6 +300,7 @@
     <ClInclude Include="src\leetcode\trim_a_binary_search_tree.h" />
     <ClInclude Include="src\leetcode\two_sum_iv_input_is_bst.h" />
     <ClInclude Include="src\leetcode\unique-binary-search-trees-ii.h" />
+    <ClInclude Include="src\leetcode\unique-binary-search-trees.h" />
     <ClInclude Include="src\leetcode\unique-morse-code-words.h" />
     <ClInclude Include="src\leetcode\unique-paths-ii.h" />
     <ClInclude Include="src\leetcode\unique-paths.h" />
@@ -395,6 +398,7 @@
   <ItemGroup>
     <ClCompile Include="practise.cpp" />
     <ClCompile Include="src\blocking_queue\blocking_queue_test.cpp" />
+    <ClCompile Include="src\leetcode\337.house-robber-iii.h" />
     <ClCompile Include="src\leetcode\delete_node_in_a_linked_list.h" />
     <ClCompile Include="src\leetcode\valid_anagram.h" />
     <ClCompile Include="stdafx.cpp" />

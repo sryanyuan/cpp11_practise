@@ -34,12 +34,50 @@ The above output corresponds to the 5 unique BST's shown below:
 class UniqueBinarySearchTreesIi : public TreeNodeCls {
 public:
 	static void test() {
-		
+		auto res = generateTrees(3);
 	}
 
 	static vector<TreeNode*> generateTrees(int n) {
 		vector<TreeNode*> res;
+
+        for (int i = 1; i <= n; i++) {
+            vector<TreeNode*> leftNodes = buildTree(1, i - 1);
+            vector<TreeNode*> rightNodes = buildTree(i + 1, n);
+
+            for (auto lnode : leftNodes) {
+                for (auto rnode : rightNodes) {
+                    TreeNode* pRoot = new TreeNode(i);
+                    pRoot->left = lnode;
+                    pRoot->right = rnode;
+                    res.push_back(pRoot);
+                }
+            }
+        }
+
+        return res;
 	}
+
+    static vector<TreeNode*> buildTree(int nStart, int nEnd) {
+        vector<TreeNode*> res;
+        for (int i = nStart; i <= nEnd; i++) {
+            vector<TreeNode*> leftNodes = buildTree(nStart, i - 1);
+            vector<TreeNode*> rightNodes = buildTree(i + 1, nEnd);
+
+            for (auto lnode : leftNodes) {
+                for (auto rnode : rightNodes) {
+                    TreeNode* pRoot = new TreeNode(i);
+                    pRoot->left = lnode;
+                    pRoot->right = rnode;
+                    res.push_back(pRoot);
+                }
+            }
+        }
+
+        if (res.empty()) {
+            res.push_back(nullptr);
+        }
+        return res;
+    }
 };
 
 #endif

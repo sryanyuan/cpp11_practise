@@ -85,7 +85,7 @@ public:
         }
 
         string item;
-        stringstream ss;
+        std::stringstream ss;
         ss.str(input);
 
         getline(ss, item, ',');

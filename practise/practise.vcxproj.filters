@@ -978,6 +978,15 @@
     <ClInclude Include="src\leetcode\split-array-into-consecutive-subsequences.h">
       <Filter>src\leetcode</Filter>
     </ClInclude>
+    <ClInclude Include="src\leetcode\unique-binary-search-trees.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\sort_list.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="src\leetcode\flatten_nested_list_iterator.h">
+      <Filter>src\leetcode</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -993,6 +1002,9 @@
       <Filter>src\leetcode</Filter>
     </ClCompile>
     <ClCompile Include="src\leetcode\valid_anagram.h">
+      <Filter>src\leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\leetcode\337.house-robber-iii.h">
       <Filter>src\leetcode</Filter>
     </ClCompile>
   </ItemGroup>
